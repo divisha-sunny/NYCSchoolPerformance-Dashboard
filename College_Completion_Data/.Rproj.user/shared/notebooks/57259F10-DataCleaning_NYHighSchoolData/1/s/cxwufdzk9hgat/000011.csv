@@ -1,0 +1,5 @@
+"0","sat_demog_dir <- sat_demog_dir %>%"
+"0","  filter(!is.na(avg_sat_score)) %>%"
+"0","  filter(!is.na(frl_percent)) %>%"
+"0","  filter(!is.na(ell_percent))"
+"0","sat_demog_dir"

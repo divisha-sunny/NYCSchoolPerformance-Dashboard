@@ -1,0 +1,4 @@
+"0","setwd(""C:/Users/chowd/Documents/NEU/2nd quarter/Communications and Visualizations"")"
+"2","Warning: The working directory was changed to C:/Users/chowd/Documents/NEU/2nd quarter/Communications and Visualizations inside a notebook chunk. The working directory will be reset when the chunk is finished running. Use the knitr root.dir option in the setup chunk to change the working directory for notebook chunks."
+"0","library(readr)"
+"0","baseball<- read_csv(""baseball.csv"", show_col_types = FALSE)"

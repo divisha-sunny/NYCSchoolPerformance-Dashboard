@@ -1,0 +1,6 @@
+"0","critical_value <- qchisq(0.95, df = ncol(obs)-1)"
+"0","critical_value"
+"1","[1]"
+"1"," 81.38102"
+"1","
+"

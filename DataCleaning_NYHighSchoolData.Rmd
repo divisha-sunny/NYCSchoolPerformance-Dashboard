@@ -1,0 +1,387 @@
+---
+title: "College_Data"
+author: "Divisha Choudavaram"
+date: "2023-01-21"
+output: html_document
+---
+
+Importing the Datasets
+
+```{r}
+setwd("C:/Users/chowd/Documents/NEU/2nd quarter/Communications and Visualizations/College_Project")
+library(readr)
+sat_results <- read_csv("2012_SAT_Results.csv") 
+ap_2010 <- read_csv("2010__AP__College_Board__School_Level_Results.csv") 
+class_size <- read_csv("2010-2011_Class_Size_-_School-level_detail.csv")
+demographics <- read_csv("2006_-_2012_School_Demographics_and_Accountability_Snapshot.csv") 
+graduation <- read_csv("2005-2010_Graduation_Outcomes_-_School_Level.csv") 
+hs_directory <- read_csv("2014_-_2015_DOE_High_School_Directory.csv")
+```
+
+```{r}
+list_of_df <- list(sat_results, ap_2010, class_size, demographics, graduation, hs_directory)
+names(list_of_df) <- c("sat_results", "ap_2010", "class_size", "demographics", "graduation", "hs_directory")
+
+get_df_dims <- function(df_list) {
+ 
+  dim_mat <- matrix(ncol = 2)
+  
+  for (df in df_list) {
+    if (all(is.na(dim_mat))) {
+      dim_mat <- rbind(c(dim(df)[1], dim(df)[2]))
+    }
+    else 
+      dim_mat <- rbind(dim_mat, c(dim(df)[1], dim(df)[2]))
+    
+  }
+  
+  colnames(dim_mat) <- c("Num_of_rows", "Num_of_cols")
+  rownames(dim_mat) <- names(df_list)
+  dim_mat
+}
+
+get_df_dims(list_of_df)
+
+```
+
+Cleaning SAT data
+
+```{r}
+head(sat_results, n=5)
+```
+
+```{r}
+sum(is.na(sat_results))
+```
+
+```{r}
+str(sat_results)
+```
+
+```{r}
+colnames(sat_results)
+```
+
+```{r}
+library(dplyr)
+sat_results <- sat_results %>%
+    mutate(`Num of SAT Test Takers` = as.numeric(`Num of SAT Test Takers`),
+           `SAT Writing Avg. Score` = as.numeric(`SAT Writing Avg. Score`),
+           `SAT Critical Reading Avg. Score` = as.numeric(`SAT Critical Reading Avg. Score`),
+           `SAT Math Avg. Score` = as.numeric(`SAT Math Avg. Score`)) %>% 
+    mutate(avg_sat_score = `SAT Writing Avg. Score` + `SAT Critical Reading Avg. Score` + `SAT Math Avg. Score`)
+```
+
+```{r}
+head(sat_results)
+str(sat_results)
+```
+
+```{r}
+head(sat_results)
+```
+
+```{r}
+write.csv(sat_results, "sat_results.csv")
+```
+
+
+Cleaning Ap Data
+
+```{r}
+head(ap_2010, 10)
+```
+
+```{r}
+ap_2010 <- ap_2010 %>% 
+    mutate_at(vars(`AP Test Takers`, `Total Exams Taken`, 
+                    `Number of Exams with scores 3 4 or 5`), as.numeric) %>%
+    mutate(exams_per_student = `Total Exams Taken`/`AP Test Takers`) %>%
+    mutate(high_score_percent = (`Number of Exams with scores 3 4 or 5`/`Total Exams Taken`)*100)
+
+head(ap_2010)
+```
+
+```{r}
+write.csv(ap_2010, "ap_data.csv")
+```
+
+
+Cleaning class size data
+
+```{r}
+head(class_size, 10)
+```
+
+```{r}
+class_size <- class_size %>% filter (GRADE == "09-12" & `PROGRAM TYPE` == "GEN ED")
+```
+
+```{r}
+head(class_size)
+```
+
+```{r}
+class_size <- class_size %>% 
+    group_by(CSD, `SCHOOL CODE`, `SCHOOL NAME`) %>%
+    summarize(avg_class_size = mean(`AVERAGE CLASS SIZE`),
+              avg_largest_class = mean(`SIZE OF LARGEST CLASS`),
+              avg_smallest_class = mean(`SIZE OF SMALLEST CLASS`))
+```
+
+Let’s add a DBN variable to the class size dataframe which we can use as a key to join other dataframes.
+
+```{r}
+library(stringr)
+class_size <- class_size %>%
+  mutate(DBN = str_c(CSD, `SCHOOL CODE`, sep = "")) %>%
+  mutate(DBN = str_pad(DBN, width = 6, side = 'left', pad = "0"))
+
+#reorder columns and drop CSD and `SCHOOL CODE` variables
+class_size <- class_size[c(7,3,4,5,6)]
+
+head(class_size)
+```
+
+```{r}
+dim(class_size)
+```
+
+```{r}
+write.csv(class_size, "class_size.csv")
+```
+
+
+Cleaning graduation data
+
+```{r}
+head(graduation, 10)
+```
+
+```{r}
+graduation <- graduation %>% 
+    filter (Demographic == "Total Cohort" & Cohort == "2006") %>%
+    select (DBN, `School Name`, `Total Grads - % of cohort`, `Dropped Out - % of cohort`) 
+
+head(graduation)
+```
+
+```{r}
+graduation %>% mutate_if(is.character, parse_number)
+```
+
+```{r}
+head(graduation, n=10)
+```
+
+```{r}
+dim(graduation)
+```
+
+```{r}
+write.csv(graduation, "graduation.csv")
+```
+
+
+Cleaning Demographics Data
+
+```{r}
+head(demographics, 10)
+```
+
+```{r}
+demographics <- demographics %>% 
+    filter (grade9 != "NA") %>%
+    select (DBN, schoolyear, frl_percent, total_enrollment, ell_percent, sped_percent, asian_per, black_per, hispanic_per, white_per, male_per)
+
+head(demographics)
+```
+
+```{r}
+dim(demographics)
+```
+
+```{r}
+write.csv(demographics, "demographics.csv")
+```
+
+
+Cleaning High School Directory Data
+
+```{r}
+head(hs_directory)
+```
+
+```{r}
+hs_directory <- hs_directory %>%
+    rename (DBN = dbn, Borough=borough) %>%
+    select (DBN, school_name, Borough, `Location 1`)
+
+head(hs_directory)
+```
+
+```{r}
+lat_long <- str_split(hs_directory$`Location 1`, "\n", simplify=TRUE)
+
+hs_directory <- hs_directory %>% mutate (lat_long = lat_long[,3])
+
+#Create lat and long variables from lat_long and add them to the hs_directory dataframe.
+split_location <- str_split(hs_directory$lat_long, ",", simplify=TRUE)
+
+hs_directory <- hs_directory %>%
+    mutate(lat = split_location[,1], long = split_location[,2])
+
+#Remove the opening and closing parentheses from lat and long cols. 
+lat_clean <- str_sub(hs_directory$lat, 2, -1)
+long_clean <- str_sub(hs_directory$long, 1, -2)
+
+#Convert the data type of the lat and long variables from character to numeric.
+hs_directory <- hs_directory %>%
+    mutate(lat = lat_clean, long = long_clean) %>%
+    mutate_at(vars(lat : long), as.numeric) %>%
+    select(-`Location 1`)
+```
+
+```{r}
+head(hs_directory, 10)
+```
+
+```{r}
+dim(hs_directory)
+```
+
+```{r}
+write.csv(hs_directory, "high_school_directory.csv")
+```
+
+
+Checking for duplicates
+
+```{r}
+library(purrr)
+#create a list of the six dataframes named `ny_schools`
+ny_schools <- list(sat_results, demographics, hs_directory, graduation, class_size, ap_2010)
+
+#assign the dataframes in the list proper name attributes
+names(ny_schools) <- c("sat_results", "demographics2012", "hs_directory", "graduation", "class_size", "ap_2010")
+
+#return a list of rows from each dataframe that contain duplicate values of DBN
+duplicate_DBN <- ny_schools %>% 
+    map(mutate, is_dup = duplicated(DBN)) %>%
+    map(filter, is_dup == "TRUE")
+
+duplicate_DBN
+```
+
+```{r}
+check_dup <- ap_2010 %>%
+            filter(DBN == "04M610")
+
+check_dup
+```
+
+```{r}
+ap_2010 <- ap_2010 %>%
+            filter (SchoolName != "YOUNG WOMEN'S LEADERSHIP SCH")
+
+#check if only one "04M610" DBN value remains
+check_dup <- ap_2010 %>%
+            filter(DBN == "04M610")
+
+check_dup
+```
+
+Combining the datasets
+
+```{r}
+sat_demog_dir <- sat_results %>%
+  left_join(demographics, by = "DBN") %>%
+  left_join(hs_directory, by = "DBN") %>%
+  rename(School_Name = `SCHOOL NAME`) %>%
+  select(-school_name)
+
+head(sat_demog_dir)
+```
+
+```{r}
+na_count <- colSums(is.na(sat_demog_dir)) %>%
+            as_tibble(rownames = "Variable")
+
+na_count
+```
+
+```{r}
+sat_demog_dir <- sat_demog_dir %>%
+  filter(!is.na(avg_sat_score)) %>%
+  filter(!is.na(frl_percent)) %>%
+  filter(!is.na(ell_percent))
+sat_demog_dir
+```
+
+```{r}
+na_boro <- sat_demog_dir %>%
+  filter(is.na(Borough)) %>%
+  select(DBN, Borough, School_Name)
+
+ 
+na_boro
+```
+
+```{r}
+library(dplyr)
+library(tidyr)
+
+sat_demog_dir <- sat_demog_dir %>%
+  mutate (
+    Borough = case_when(
+        str_extract(DBN, "[A-Z]") == "M" ~ replace_na(Borough, "Manhattan"),
+        str_extract(DBN, "[A-Z]") == "X" ~ replace_na(Borough, "Bronx"),
+        str_extract(DBN, "[A-Z]") == "K" ~ replace_na(Borough, "Brooklyn"),
+        str_extract(DBN, "[A-Z]") == "Q" ~ replace_na(Borough, "Queens"),
+        str_extract(DBN, "[A-Z]") == "R" ~ replace_na(Borough, "Staten Island")
+    )
+  )
+
+#check a few of the missing boroughs to see if inputation was successful
+na_boro_repl <- sat_demog_dir %>%
+  filter(DBN %in% c("01M458", "07X321", "13K336", "25Q792", "31R470")) %>%
+  select(DBN, Borough, `School_Name`)
+  
+
+na_boro_repl
+```
+
+```{r}
+sat_demog_dir <- sat_demog_dir[,-8]
+```
+
+
+```{r}
+dim(sat_demog_dir)
+head(sat_demog_dir)
+```
+
+```{r}
+write.csv(sat_demog_dir, "combined_data1.csv")
+```
+
+```{r}
+head(sat_results, n=5)
+head(hs_directory, n=5)
+head(ap_2010, n=5)
+head(class_size, n=5)
+head(demographics, n=5)
+head(graduation, n=5)
+
+Data <- sat_results %>%
+left_join(demographics, by = c("DBN" = "DBN")) %>%
+left_join(hs_directory, by = c("DBN" = "DBN")) %>%
+left_join(graduation, by = c("DBN" = "DBN")) %>%
+left_join(ap_2010, by = c("DBN" = "DBN")) %>%
+left_join(class_size, by = c("DBN" = "DBN")) #%>%
+#rename(School_Name = c(school_name = "SCHOOL NAME", school_name = "School Name")) %>%
+#select(-c(school_name, "SCHOOL NAME", "School Name"))
+
+head(Data, n=10)
+```
+

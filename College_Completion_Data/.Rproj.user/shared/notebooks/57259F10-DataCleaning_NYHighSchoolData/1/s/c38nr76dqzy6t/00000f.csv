@@ -1,0 +1,55 @@
+"0","setwd(""C:/Users/chowd/Documents/NEU/2nd quarter/Communications and Visualizations/College_Project"")"
+"0","library(readr)"
+"0","sat_results <- read_csv(""2012_SAT_Results.csv"") "
+"2","[1mRows: [22m[34m478[39m [1mColumns: [22m[34m6[39m"
+"2","[36m──[39m [1mColumn specification[22m [36m─────────────────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m "",""
+[31mchr[39m (6): DBN, SCHOOL NAME, Num of SAT Test Takers, SAT Critical Reading Avg. Score, SAT Math Avg...."
+"2","
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message."
+"0","ap_2010 <- read_csv(""2010__AP__College_Board__School_Level_Results.csv"") "
+"2","[1mRows: [22m[34m258[39m [1mColumns: [22m[34m5[39m"
+"2","[36m──[39m [1mColumn specification[22m [36m─────────────────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m "",""
+[31mchr[39m (2): DBN, SchoolName"
+"2","
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message."
+"0","class_size <- read_csv(""2010-2011_Class_Size_-_School-level_detail.csv"")"
+"2","[1mRows: [22m[34m27611[39m [1mColumns: [22m[34m16[39m"
+"2","[36m──[39m [1mColumn specification[22m [36m─────────────────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m "",""
+[31mchr[39m (9): BOROUGH, SCHOOL CODE, SCHOOL NAME, GRADE, PROGRAM TYPE, CORE SUBJECT (MS CORE and 9-12 O...
+[32mdbl[39m (6): CSD, NUMBER OF SECTIONS, AVERAGE CLASS SIZE, SIZE OF SMALLEST CLASS, SIZE OF LARGEST CLA..."
+"2","
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message."
+"0","demographics <- read_csv(""2006_-_2012_School_Demographics_and_Accountability_Snapshot.csv"") "
+"2","[1mRows: [22m[34m10075[39m [1mColumns: [22m[34m38[39m"
+"2","[36m──[39m [1mColumn specification[22m [36m─────────────────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m "",""
+[31mchr[39m  (3): DBN, Name, fl_percent
+[32mdbl[39m (35): schoolyear, frl_percent, total_enrollment, prek, k, grade1, grade2, grade3, grade4, gra..."
+"2","
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message."
+"0","graduation <- read_csv(""2005-2010_Graduation_Outcomes_-_School_Level.csv"") "
+"2","[1mRows: [22m[34m25096[39m [1mColumns: [22m[34m23[39m"
+"2","[36m──[39m [1mColumn specification[22m [36m─────────────────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m "",""
+[31mchr[39m (11): Demographic, DBN, School Name, Cohort, Total Grads - n, Total Regents - n, Advanced Reg...
+[32mdbl[39m (11): Total Grads - % of cohort, Total Regents - % of cohort, Total Regents - % of grads, Adv..."
+"2","
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message."
+"0","hs_directory <- read_csv(""2014_-_2015_DOE_High_School_Directory.csv"")"
+"2","[1mRows: [22m[34m435[39m [1mColumns: [22m[34m64[39m"
+"2","[36m──[39m [1mColumn specification[22m [36m─────────────────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m "",""
+[31mchr[39m  (50): dbn, school_name, borough, building_code, phone_number, fax_number, bus, subway, prima...
+[32mdbl[39m   (7): grade_span_min, grade_span_max, expgrade_span_min, expgrade_span_max, number_programs,...
+[34mtime[39m  (2): start_time, end_time"
+"2","
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message."

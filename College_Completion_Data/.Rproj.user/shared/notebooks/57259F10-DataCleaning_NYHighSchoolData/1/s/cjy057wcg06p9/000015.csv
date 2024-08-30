@@ -1,0 +1,5 @@
+"0","graduation <- graduation %>% "
+"0","    filter (Demographic == ""Total Cohort"" & Cohort == ""2006"") %>%"
+"0","    select (DBN, `School Name`, `Total Grads - % of cohort`, `Dropped Out - % of cohort`) "
+"0",""
+"0","head(graduation)"

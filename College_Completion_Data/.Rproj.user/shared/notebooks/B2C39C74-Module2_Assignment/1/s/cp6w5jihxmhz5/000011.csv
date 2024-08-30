@@ -1,0 +1,1 @@
+"0","ggplot(data = baseball, aes(x = W, y = RS)) + geom_point()"

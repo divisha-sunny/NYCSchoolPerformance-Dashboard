@@ -1,0 +1,7 @@
+"0","sat_demog_dir <- sat_results %>%"
+"0","  left_join(demographics, by = ""DBN"") %>%"
+"0","  left_join(hs_directory, by = ""DBN"") %>%"
+"0","  rename(School_Name = `SCHOOL NAME`) %>%"
+"0","  select(-school_name, -lat_long, -lat, -long)"
+"0",""
+"0","head(sat_demog_dir)"

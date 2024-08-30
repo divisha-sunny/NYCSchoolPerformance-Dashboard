@@ -1,0 +1,4 @@
+"0","na_count <- colSums(is.na(sat_demog_dir)) %>%"
+"0","            as_tibble(rownames = ""Variable"")"
+"0",""
+"0","na_count"

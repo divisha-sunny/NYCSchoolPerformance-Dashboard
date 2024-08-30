@@ -1,0 +1,11 @@
+"0","graduation %>% mutate_if(is.character, parse_number)"
+"2","Warning: 402 parsing failures.
+row col expected                                actual
+  1  -- a number HENRY STREET SCHOOL FOR INTERNATIONAL
+  2  -- a number UNIVERSITY NEIGHBORHOOD HIGH SCHOOL  
+  3  -- a number EAST SIDE COMMUNITY SCHOOL           
+  4  -- a number MARTA VALLE HIGH SCHOOL              
+  5  -- a number LOWER EAST SIDE PREPARATORY HIGH SCHO
+... ... ........ .....................................
+See problems(...) for more details.
+"

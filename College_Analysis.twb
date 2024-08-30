@@ -1,0 +1,2373 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20224.22.1117.1841                               -->
+<workbook original-version='18.1' source-build='2022.4.0 (20224.22.1117.1841)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='combined_data (combined_data)' inline='true' name='federated.18v02xw1fllnv0160w3kn1a8o9qj' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='combined_data' name='excel-direct.0cljquu0f5ke5y1coav960ba46fx'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/chowd/Documents/NEU/2nd quarter/Communications and Visualizations/College_Project/College_Completion_Data/combined_data.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0cljquu0f5ke5y1coav960ba46fx' name='combined_data' table='[combined_data$]' type='table'>
+          <columns gridOrigin='A1:S1177:no:A1:S1177:0' header='yes' outcome='6'>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='DBN' ordinal='1' />
+            <column datatype='string' name='School_Name' ordinal='2' />
+            <column datatype='integer' name='Num of SAT Test Takers' ordinal='3' />
+            <column datatype='integer' name='SAT Critical Reading Avg. Score' ordinal='4' />
+            <column datatype='integer' name='SAT Math Avg. Score' ordinal='5' />
+            <column datatype='integer' name='SAT Writing Avg. Score' ordinal='6' />
+            <column datatype='integer' name='avg_sat_score' ordinal='7' />
+            <column datatype='integer' name='schoolyear' ordinal='8' />
+            <column datatype='real' name='frl_percent' ordinal='9' />
+            <column datatype='integer' name='total_enrollment' ordinal='10' />
+            <column datatype='real' name='ell_percent' ordinal='11' />
+            <column datatype='real' name='sped_percent' ordinal='12' />
+            <column datatype='real' name='asian_per' ordinal='13' />
+            <column datatype='real' name='black_per' ordinal='14' />
+            <column datatype='real' name='hispanic_per' ordinal='15' />
+            <column datatype='real' name='white_per' ordinal='16' />
+            <column datatype='real' name='male_per' ordinal='17' />
+            <column datatype='string' name='Borough' ordinal='18' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0cljquu0f5ke5y1coav960ba46fx' name='combined_data' table='[combined_data$]' type='table'>
+          <columns gridOrigin='A1:S1177:no:A1:S1177:0' header='yes' outcome='6'>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='DBN' ordinal='1' />
+            <column datatype='string' name='School_Name' ordinal='2' />
+            <column datatype='integer' name='Num of SAT Test Takers' ordinal='3' />
+            <column datatype='integer' name='SAT Critical Reading Avg. Score' ordinal='4' />
+            <column datatype='integer' name='SAT Math Avg. Score' ordinal='5' />
+            <column datatype='integer' name='SAT Writing Avg. Score' ordinal='6' />
+            <column datatype='integer' name='avg_sat_score' ordinal='7' />
+            <column datatype='integer' name='schoolyear' ordinal='8' />
+            <column datatype='real' name='frl_percent' ordinal='9' />
+            <column datatype='integer' name='total_enrollment' ordinal='10' />
+            <column datatype='real' name='ell_percent' ordinal='11' />
+            <column datatype='real' name='sped_percent' ordinal='12' />
+            <column datatype='real' name='asian_per' ordinal='13' />
+            <column datatype='real' name='black_per' ordinal='14' />
+            <column datatype='real' name='hispanic_per' ordinal='15' />
+            <column datatype='real' name='white_per' ordinal='16' />
+            <column datatype='real' name='male_per' ordinal='17' />
+            <column datatype='string' name='Borough' ordinal='18' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[combined_data]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:S1177:no:A1:S1177:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[combined_data]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined!data_69F05CF9E603443FA7F492A1B2F559D6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DBN</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[DBN]</local-name>
+            <parent-name>[combined_data]</parent-name>
+            <remote-alias>DBN</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined!data_69F05CF9E603443FA7F492A1B2F559D6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>School_Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[School_Name]</local-name>
+            <parent-name>[combined_data]</parent-name>
+            <remote-alias>School_Name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined!data_69F05CF9E603443FA7F492A1B2F559D6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Num of SAT Test Takers</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Num of SAT Test Takers]</local-name>
+            <parent-name>[combined_data]</parent-name>
+            <remote-alias>Num of SAT Test Takers</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined!data_69F05CF9E603443FA7F492A1B2F559D6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SAT Critical Reading Avg. Score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SAT Critical Reading Avg. Score]</local-name>
+            <parent-name>[combined_data]</parent-name>
+            <remote-alias>SAT Critical Reading Avg. Score</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined!data_69F05CF9E603443FA7F492A1B2F559D6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SAT Math Avg. Score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SAT Math Avg. Score]</local-name>
+            <parent-name>[combined_data]</parent-name>
+            <remote-alias>SAT Math Avg. Score</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined!data_69F05CF9E603443FA7F492A1B2F559D6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SAT Writing Avg. Score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SAT Writing Avg. Score]</local-name>
+            <parent-name>[combined_data]</parent-name>
+            <remote-alias>SAT Writing Avg. Score</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined!data_69F05CF9E603443FA7F492A1B2F559D6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>avg_sat_score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[avg_sat_score]</local-name>
+            <parent-name>[combined_data]</parent-name>
+            <remote-alias>avg_sat_score</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined!data_69F05CF9E603443FA7F492A1B2F559D6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>schoolyear</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[schoolyear]</local-name>
+            <parent-name>[combined_data]</parent-name>
+            <remote-alias>schoolyear</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined!data_69F05CF9E603443FA7F492A1B2F559D6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>frl_percent</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[frl_percent]</local-name>
+            <parent-name>[combined_data]</parent-name>
+            <remote-alias>frl_percent</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined!data_69F05CF9E603443FA7F492A1B2F559D6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_enrollment</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_enrollment]</local-name>
+            <parent-name>[combined_data]</parent-name>
+            <remote-alias>total_enrollment</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined!data_69F05CF9E603443FA7F492A1B2F559D6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ell_percent</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ell_percent]</local-name>
+            <parent-name>[combined_data]</parent-name>
+            <remote-alias>ell_percent</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined!data_69F05CF9E603443FA7F492A1B2F559D6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sped_percent</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[sped_percent]</local-name>
+            <parent-name>[combined_data]</parent-name>
+            <remote-alias>sped_percent</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined!data_69F05CF9E603443FA7F492A1B2F559D6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>asian_per</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[asian_per]</local-name>
+            <parent-name>[combined_data]</parent-name>
+            <remote-alias>asian_per</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined!data_69F05CF9E603443FA7F492A1B2F559D6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>black_per</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[black_per]</local-name>
+            <parent-name>[combined_data]</parent-name>
+            <remote-alias>black_per</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined!data_69F05CF9E603443FA7F492A1B2F559D6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hispanic_per</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[hispanic_per]</local-name>
+            <parent-name>[combined_data]</parent-name>
+            <remote-alias>hispanic_per</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined!data_69F05CF9E603443FA7F492A1B2F559D6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>white_per</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[white_per]</local-name>
+            <parent-name>[combined_data]</parent-name>
+            <remote-alias>white_per</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined!data_69F05CF9E603443FA7F492A1B2F559D6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>male_per</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[male_per]</local-name>
+            <parent-name>[combined_data]</parent-name>
+            <remote-alias>male_per</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined!data_69F05CF9E603443FA7F492A1B2F559D6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Borough</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Borough]</local-name>
+            <parent-name>[combined_data]</parent-name>
+            <remote-alias>Borough</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined!data_69F05CF9E603443FA7F492A1B2F559D6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Borough]' role='dimension' semantic-role='[CMSA].[Name]' type='nominal' />
+      <column caption='Total Number of Students' datatype='real' name='[Calculation_1657043243107504128]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[asian_per]+[hispanic_per]+[white_per]+[black_per]' />
+      </column>
+      <column caption='Enrollment Percentage' datatype='real' name='[Calculation_1657043243133980675]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([total_enrollment])' />
+      </column>
+      <column caption='Desc_Avg_Sat_Score' datatype='integer' name='[Calculation_1657043243209621515]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='RANK(AVG([avg_sat_score]))'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='Total_Enrollment_Rank' datatype='integer' name='[Calculation_1657043243224789005]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='RANK(AVG([total_enrollment]))'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column aggregation='None' caption='Male Per (bin)' datatype='integer' name='[Male Per (bin)]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='0' formula='[male_per]' peg='0' size='5' />
+      </column>
+      <column datatype='integer' name='[Num of SAT Test Takers]' role='measure' type='quantitative' />
+      <column caption='School Name' datatype='string' name='[School_Name]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='combined_data' datatype='table' name='[__tableau_internal_object_id__].[combined!data_69F05CF9E603443FA7F492A1B2F559D6]' role='measure' type='quantitative' />
+      <column caption='Asian Per' datatype='real' name='[asian_per]' role='measure' type='quantitative' />
+      <column caption='Avg Sat Score' datatype='integer' name='[avg_sat_score]' role='measure' type='quantitative' />
+      <column caption='Black Per' datatype='real' name='[black_per]' role='measure' type='quantitative' />
+      <column caption='Ell Percent' datatype='real' name='[ell_percent]' role='measure' type='quantitative' />
+      <column caption='Frl Percent' datatype='real' name='[frl_percent]' role='measure' type='quantitative' />
+      <column caption='Hispanic Per' datatype='real' name='[hispanic_per]' role='measure' type='quantitative' />
+      <column caption='Male Per' datatype='real' name='[male_per]' role='measure' type='quantitative' />
+      <column caption='Schoolyear' datatype='integer' hidden='true' name='[schoolyear]' role='measure' type='quantitative' />
+      <column caption='Sped Percent' datatype='real' name='[sped_percent]' role='measure' type='quantitative' />
+      <column caption='Total Enrollment' datatype='integer' name='[total_enrollment]' role='measure' type='quantitative' />
+      <column caption='White Per' datatype='real' name='[white_per]' role='measure' type='quantitative' />
+      <column-instance column='[asian_per]' derivation='Avg' name='[avg:asian_per:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[avg_sat_score]' derivation='Avg' name='[avg:avg_sat_score:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[black_per]' derivation='Avg' name='[avg:black_per:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[frl_percent]' derivation='Avg' name='[avg:frl_percent:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[hispanic_per]' derivation='Avg' name='[avg:hispanic_per:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[white_per]' derivation='Avg' name='[avg:white_per:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[School_Name]' derivation='None' name='[none:School_Name:nk]' pivot='key' type='nominal' />
+      <column-instance column='[asian_per]' derivation='None' name='[none:asian_per:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[avg_sat_score]' derivation='None' name='[none:avg_sat_score:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[black_per]' derivation='None' name='[none:black_per:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[frl_percent]' derivation='None' name='[none:frl_percent:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[hispanic_per]' derivation='None' name='[none:hispanic_per:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[white_per]' derivation='None' name='[none:white_per:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Num of SAT Test Takers]' derivation='Sum' name='[sum:Num of SAT Test Takers:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[asian_per]' derivation='Sum' name='[sum:asian_per:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[avg_sat_score]' derivation='Sum' name='[sum:avg_sat_score:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[black_per]' derivation='Sum' name='[sum:black_per:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[frl_percent]' derivation='Sum' name='[sum:frl_percent:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[hispanic_per]' derivation='Sum' name='[sum:hispanic_per:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[total_enrollment]' derivation='Sum' name='[sum:total_enrollment:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[white_per]' derivation='Sum' name='[sum:white_per:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1657043243209621515]' derivation='User' name='[usr:Calculation_1657043243209621515:qk:2]' pivot='key' type='quantitative'>
+        <table-calc ordering-field='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:School_Name:nk]' ordering-type='Field' />
+      </column-instance>
+      <group caption='Action (Borough)' hidden='true' name='[Action (Borough)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Borough]' />
+        </groupfilter>
+      </group>
+      <_.fcp.SchemaViewerObjectModel.false...folder name='Race' role='measures'>
+        <folder-item name='[asian_per]' type='field' />
+        <folder-item name='[black_per]' type='field' />
+        <folder-item name='[hispanic_per]' type='field' />
+        <folder-item name='[white_per]' type='field' />
+      </_.fcp.SchemaViewerObjectModel.false...folder>
+      <_.fcp.SchemaViewerObjectModel.true...folders-common>
+        <folder name='Race'>
+          <folder-item name='[asian_per]' type='field' />
+          <folder-item name='[black_per]' type='field' />
+          <folder-item name='[hispanic_per]' type='field' />
+          <folder-item name='[white_per]' type='field' />
+        </folder>
+      </_.fcp.SchemaViewerObjectModel.true...folders-common>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='false' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:School_Name:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;BACCALAUREATE SCHOOL FOR GLOBAL EDUCATION&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;BENJAMIN N. CARDOZO HIGH SCHOOL&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;BROOKLYN TECHNICAL HIGH SCHOOL&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;FOREST HILLS HIGH SCHOOL&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;BRONX HIGH SCHOOL OF SCIENCE&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;EDWARD R. MURROW HIGH SCHOOL&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;MIDWOOD HIGH SCHOOL&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;N.Y.C. LAB SCHOOL FOR COLLABORATIVE STUDIES&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;FIORELLO H. LAGUARDIA HIGH SCHOOL OF MUSIC &amp; ART AND PERFORMING ARTS&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;FRANCIS LEWIS HIGH SCHOOL&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;STUYVESANT HIGH SCHOOL&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;TOTTENVILLE HIGH SCHOOL&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;BEACON HIGH SCHOOL&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;DEWITT CLINTON HIGH SCHOOL&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;ELEANOR ROOSEVELT HIGH SCHOOL&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;FORT HAMILTON HIGH SCHOOL&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;BARD HIGH SCHOOL EARLY COLLEGE II&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;HERBERT H. LEHMAN HIGH SCHOOL&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;LEON M. GOLDSTEIN HIGH SCHOOL FOR THE SCIENCES&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.18v02xw1fllnv0160w3kn1a8o9qj].[avg:asian_per:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:asian_per:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:avg_sat_score:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.18v02xw1fllnv0160w3kn1a8o9qj].[sum:asian_per:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.18v02xw1fllnv0160w3kn1a8o9qj].[sum:avg_sat_score:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.18v02xw1fllnv0160w3kn1a8o9qj].[sum:Num of SAT Test Takers:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.18v02xw1fllnv0160w3kn1a8o9qj]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.18v02xw1fllnv0160w3kn1a8o9qj].[avg:white_per:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:white_per:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.18v02xw1fllnv0160w3kn1a8o9qj].[sum:white_per:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.18v02xw1fllnv0160w3kn1a8o9qj].[avg:frl_percent:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:frl_percent:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.18v02xw1fllnv0160w3kn1a8o9qj].[sum:frl_percent:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.18v02xw1fllnv0160w3kn1a8o9qj].[avg:hispanic_per:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:hispanic_per:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.18v02xw1fllnv0160w3kn1a8o9qj].[sum:hispanic_per:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.18v02xw1fllnv0160w3kn1a8o9qj].[avg:avg_sat_score:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.18v02xw1fllnv0160w3kn1a8o9qj].[avg:black_per:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:black_per:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.18v02xw1fllnv0160w3kn1a8o9qj].[sum:black_per:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.18v02xw1fllnv0160w3kn1a8o9qj].[sum:total_enrollment:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.18v02xw1fllnv0160w3kn1a8o9qj].[usr:Calculation_1657043243209621515:qk:2]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='combined_data' id='combined!data_69F05CF9E603443FA7F492A1B2F559D6'>
+            <properties context=''>
+              <relation connection='excel-direct.0cljquu0f5ke5y1coav960ba46fx' name='combined_data' table='[combined_data$]' type='table'>
+                <columns gridOrigin='A1:S1177:no:A1:S1177:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='DBN' ordinal='1' />
+                  <column datatype='string' name='School_Name' ordinal='2' />
+                  <column datatype='integer' name='Num of SAT Test Takers' ordinal='3' />
+                  <column datatype='integer' name='SAT Critical Reading Avg. Score' ordinal='4' />
+                  <column datatype='integer' name='SAT Math Avg. Score' ordinal='5' />
+                  <column datatype='integer' name='SAT Writing Avg. Score' ordinal='6' />
+                  <column datatype='integer' name='avg_sat_score' ordinal='7' />
+                  <column datatype='integer' name='schoolyear' ordinal='8' />
+                  <column datatype='real' name='frl_percent' ordinal='9' />
+                  <column datatype='integer' name='total_enrollment' ordinal='10' />
+                  <column datatype='real' name='ell_percent' ordinal='11' />
+                  <column datatype='real' name='sped_percent' ordinal='12' />
+                  <column datatype='real' name='asian_per' ordinal='13' />
+                  <column datatype='real' name='black_per' ordinal='14' />
+                  <column datatype='real' name='hispanic_per' ordinal='15' />
+                  <column datatype='real' name='white_per' ordinal='16' />
+                  <column datatype='real' name='male_per' ordinal='17' />
+                  <column datatype='string' name='Borough' ordinal='18' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <shared-views>
+    <shared-view name='federated.18v02xw1fllnv0160w3kn1a8o9qj'>
+      <datasources>
+        <datasource caption='combined_data (combined_data)' name='federated.18v02xw1fllnv0160w3kn1a8o9qj' />
+      </datasources>
+      <datasource-dependencies datasource='federated.18v02xw1fllnv0160w3kn1a8o9qj'>
+        <column caption='School Name' datatype='string' name='[School_Name]' role='dimension' type='nominal' />
+        <column-instance column='[School_Name]' derivation='None' name='[none:School_Name:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:School_Name:nk]'>
+        <groupfilter function='level-members' level='[none:School_Name:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+    </shared-view>
+  </shared-views>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1_FEBB441376FF4F52B02CD73A6AFDEC72]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='SAT performance and Borough Demographics' type='sheet' worksheet='Relationship between SAT Score and Economic Conditions by Borough' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='SAT performance and Borough Demographics' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Racial Diversity per Borough'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined_data (combined_data)' name='federated.18v02xw1fllnv0160w3kn1a8o9qj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.18v02xw1fllnv0160w3kn1a8o9qj'>
+            <column datatype='string' name='[Borough]' role='dimension' semantic-role='[CMSA].[Name]' type='nominal' />
+            <column caption='School Name' datatype='string' name='[School_Name]' role='dimension' type='nominal' />
+            <column caption='Asian Per' datatype='real' name='[asian_per]' role='measure' type='quantitative' />
+            <column-instance column='[asian_per]' derivation='Avg' name='[avg:asian_per:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[black_per]' derivation='Avg' name='[avg:black_per:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[hispanic_per]' derivation='Avg' name='[avg:hispanic_per:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[white_per]' derivation='Avg' name='[avg:white_per:qk]' pivot='key' type='quantitative' />
+            <column caption='Black Per' datatype='real' name='[black_per]' role='measure' type='quantitative' />
+            <column caption='Hispanic Per' datatype='real' name='[hispanic_per]' role='measure' type='quantitative' />
+            <column-instance column='[Borough]' derivation='None' name='[none:Borough:nk]' pivot='key' type='nominal' />
+            <column-instance column='[School_Name]' derivation='None' name='[none:School_Name:nk]' pivot='key' type='nominal' />
+            <column caption='White Per' datatype='real' name='[white_per]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.18v02xw1fllnv0160w3kn1a8o9qj].[avg:asian_per:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.18v02xw1fllnv0160w3kn1a8o9qj].[avg:black_per:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.18v02xw1fllnv0160w3kn1a8o9qj].[avg:hispanic_per:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.18v02xw1fllnv0160w3kn1a8o9qj].[avg:white_per:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[Action (Borough)]'>
+            <groupfilter function='level-members' level='[Borough]' user:ui-action-filter='[Action1_FEBB441376FF4F52B02CD73A6AFDEC72]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.18v02xw1fllnv0160w3kn1a8o9qj].[:Measure Names]</column>
+            <column>[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:School_Name:nk]</column>
+            <column>[federated.18v02xw1fllnv0160w3kn1a8o9qj].[Action (Borough)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.18v02xw1fllnv0160w3kn1a8o9qj].[Multiple Values]</rows>
+        <cols>([federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:Borough:nk] / [federated.18v02xw1fllnv0160w3kn1a8o9qj].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{08F329B7-E4CA-49DE-AAD2-00D8AEC5E5B2}' />
+    </worksheet>
+    <worksheet name='Relationship between Average SAT Score and Male Percentage in a School'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined_data (combined_data)' name='federated.18v02xw1fllnv0160w3kn1a8o9qj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.18v02xw1fllnv0160w3kn1a8o9qj'>
+            <column aggregation='None' caption='Male Per (bin)' datatype='integer' name='[Male Per (bin)]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='0' formula='[male_per]' peg='0' size='5' />
+            </column>
+            <column caption='School Name' datatype='string' name='[School_Name]' role='dimension' type='nominal' />
+            <column caption='Avg Sat Score' datatype='integer' name='[avg_sat_score]' role='measure' type='quantitative' />
+            <column caption='Male Per' datatype='real' name='[male_per]' role='measure' type='quantitative' />
+            <column-instance column='[Male Per (bin)]' derivation='None' name='[none:Male Per (bin):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[School_Name]' derivation='None' name='[none:School_Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[avg_sat_score]' derivation='None' name='[none:avg_sat_score:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:School_Name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <reference-line axis-column='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:avg_sat_score:qk]' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-table' value-column='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:avg_sat_score:qk]' z-order='1' />
+          </pane>
+        </panes>
+        <rows>[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:avg_sat_score:qk]</rows>
+        <cols>[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:Male Per (bin):ok]</cols>
+        <show-full-range>
+          <column>[federated.18v02xw1fllnv0160w3kn1a8o9qj].[Male Per (bin)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{FBE71D79-CFA2-49AD-B23D-D1140AEF1E14}' />
+    </worksheet>
+    <worksheet name='Relationship between Average SAT Score and Number of People Enrolled in a School'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined_data (combined_data)' name='federated.18v02xw1fllnv0160w3kn1a8o9qj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.18v02xw1fllnv0160w3kn1a8o9qj'>
+            <column caption='School Name' datatype='string' name='[School_Name]' role='dimension' type='nominal' />
+            <column caption='Avg Sat Score' datatype='integer' name='[avg_sat_score]' role='measure' type='quantitative' />
+            <column-instance column='[School_Name]' derivation='None' name='[none:School_Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[avg_sat_score]' derivation='None' name='[none:avg_sat_score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[total_enrollment]' derivation='Sum' name='[sum:total_enrollment:qk]' pivot='key' type='quantitative' />
+            <column caption='Total Enrollment' datatype='integer' name='[total_enrollment]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:School_Name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:School_Name:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:avg_sat_score:qk]</rows>
+        <cols>[federated.18v02xw1fllnv0160w3kn1a8o9qj].[sum:total_enrollment:qk]</cols>
+      </table>
+      <simple-id uuid='{5FA69759-9C34-4BBA-9E04-10D2FA158B86}' />
+    </worksheet>
+    <worksheet lock-quick-filters='true' name='Relationship between Average SAT Score of school and Socioeconomic factors'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined_data (combined_data)' name='federated.18v02xw1fllnv0160w3kn1a8o9qj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.18v02xw1fllnv0160w3kn1a8o9qj'>
+            <column caption='School Name' datatype='string' name='[School_Name]' role='dimension' type='nominal' />
+            <column caption='Avg Sat Score' datatype='integer' name='[avg_sat_score]' role='measure' type='quantitative' />
+            <column caption='Ell Percent' datatype='real' name='[ell_percent]' role='measure' type='quantitative' />
+            <column caption='Frl Percent' datatype='real' name='[frl_percent]' role='measure' type='quantitative' />
+            <column-instance column='[School_Name]' derivation='None' name='[none:School_Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[avg_sat_score]' derivation='None' name='[none:avg_sat_score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ell_percent]' derivation='None' name='[none:ell_percent:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[frl_percent]' derivation='None' name='[none:frl_percent:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[sped_percent]' derivation='None' name='[none:sped_percent:qk]' pivot='key' type='quantitative' />
+            <column caption='Sped Percent' datatype='real' name='[sped_percent]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:avg_sat_score:qk]' included-values='in-range' />
+          <slices>
+            <column>[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:avg_sat_score:qk]</column>
+            <column>[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:School_Name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:avg_sat_score:qk]' scope='cols' value='Average SAT Score' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:frl_percent:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#f28e2b' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:ell_percent:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#d37295' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:sped_percent:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#69aaa5' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:frl_percent:qk] + ([federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:ell_percent:qk] + [federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:sped_percent:qk]))</rows>
+        <cols>[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:avg_sat_score:qk]</cols>
+      </table>
+      <simple-id uuid='{39D20EA5-B503-4E7B-BA5F-A0D018AABAF0}' />
+    </worksheet>
+    <worksheet lock-quick-filters='true' name='Relationship between Racial Demographics and SAT Results in a School'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined_data (combined_data)' name='federated.18v02xw1fllnv0160w3kn1a8o9qj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.18v02xw1fllnv0160w3kn1a8o9qj'>
+            <column caption='School Name' datatype='string' name='[School_Name]' role='dimension' type='nominal' />
+            <column caption='Asian Per' datatype='real' name='[asian_per]' role='measure' type='quantitative' />
+            <column caption='Avg Sat Score' datatype='integer' name='[avg_sat_score]' role='measure' type='quantitative' />
+            <column caption='Black Per' datatype='real' name='[black_per]' role='measure' type='quantitative' />
+            <column caption='Hispanic Per' datatype='real' name='[hispanic_per]' role='measure' type='quantitative' />
+            <column-instance column='[School_Name]' derivation='None' name='[none:School_Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[asian_per]' derivation='None' name='[none:asian_per:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[avg_sat_score]' derivation='None' name='[none:avg_sat_score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[black_per]' derivation='None' name='[none:black_per:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[hispanic_per]' derivation='None' name='[none:hispanic_per:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[white_per]' derivation='None' name='[none:white_per:qk]' pivot='key' type='quantitative' />
+            <column caption='White Per' datatype='real' name='[white_per]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:avg_sat_score:qk]' included-values='in-range-or-null'>
+            <min>887</min>
+            <max>2096</max>
+          </filter>
+          <slices>
+            <column>[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:avg_sat_score:qk]</column>
+            <column>[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:School_Name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:asian_per:qk]' scope='cols' value='Asian Percentage in a School' />
+            <format attr='title' class='0' field='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:hispanic_per:qk]' scope='cols' value='Hispanic Percentage in a School' />
+            <format attr='title' class='0' field='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:white_per:qk]' scope='cols' value='White Percentage in a School' />
+            <format attr='title' class='0' field='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:black_per:qk]' scope='cols' value='Black Percentage in a School' />
+            <format attr='title' class='0' field='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:avg_sat_score:qk]' scope='rows' value='Average SAT Score in a school' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline4' value='#00000000' />
+            <format attr='fill-below' id='refline4' value='#00000000' />
+            <format attr='fill-above' id='refline8' value='#00000000' />
+            <format attr='fill-below' id='refline8' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <reference-line axis-column='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:asian_per:qk]' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-table' value-column='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:asian_per:qk]' z-order='1' />
+            <reference-line axis-column='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:hispanic_per:qk]' enable-instant-analytics='true' formula='average' id='refline1' label-type='automatic' probability='95' scope='per-table' value-column='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:hispanic_per:qk]' z-order='2' />
+            <reference-line axis-column='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:white_per:qk]' enable-instant-analytics='true' formula='average' id='refline2' label-type='automatic' probability='95' scope='per-table' value-column='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:white_per:qk]' z-order='3' />
+            <reference-line axis-column='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:black_per:qk]' enable-instant-analytics='true' formula='average' id='refline3' label-type='automatic' probability='95' scope='per-table' value-column='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:black_per:qk]' z-order='4' />
+            <reference-line axis-column='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:asian_per:qk]' enable-instant-analytics='true' formula='average' id='refline4' label-type='automatic' probability='95' scope='per-table' value-column='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:asian_per:qk]' z-order='5' />
+            <reference-line axis-column='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:hispanic_per:qk]' enable-instant-analytics='true' formula='average' id='refline5' label-type='automatic' probability='95' scope='per-table' value-column='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:hispanic_per:qk]' z-order='6' />
+            <reference-line axis-column='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:white_per:qk]' enable-instant-analytics='true' formula='average' id='refline6' label-type='automatic' probability='95' scope='per-table' value-column='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:white_per:qk]' z-order='7' />
+            <reference-line axis-column='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:black_per:qk]' enable-instant-analytics='true' formula='average' id='refline7' label-type='automatic' probability='95' scope='per-table' value-column='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:black_per:qk]' z-order='8' />
+            <reference-line axis-column='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:avg_sat_score:qk]' enable-instant-analytics='true' formula='constant' id='refline8' label='Average Line' label-type='custom' scope='per-table' value='1203' value-column='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:avg_sat_score:qk]' z-order='9' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:asian_per:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#7c681f' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:hispanic_per:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#b3962d' />
+                <format attr='mark-transparency' value='255' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:white_per:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#2d260b' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:black_per:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#dbb737' />
+                <format attr='mark-transparency' value='255' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:avg_sat_score:qk]</rows>
+        <cols>([federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:asian_per:qk] + ([federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:hispanic_per:qk] + ([federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:white_per:qk] + [federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:black_per:qk])))</cols>
+      </table>
+      <simple-id uuid='{6427E35C-918D-4CB0-B00B-3D80F7C3CC4F}' />
+    </worksheet>
+    <worksheet name='Relationship between SAT Score and Economic Conditions by Borough'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined_data (combined_data)' name='federated.18v02xw1fllnv0160w3kn1a8o9qj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.18v02xw1fllnv0160w3kn1a8o9qj'>
+            <column datatype='string' name='[Borough]' role='dimension' semantic-role='[CMSA].[Name]' type='nominal' />
+            <column caption='School Name' datatype='string' name='[School_Name]' role='dimension' type='nominal' />
+            <column-instance column='[avg_sat_score]' derivation='Avg' name='[avg:avg_sat_score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[frl_percent]' derivation='Avg' name='[avg:frl_percent:qk]' pivot='key' type='quantitative' />
+            <column caption='Avg Sat Score' datatype='integer' name='[avg_sat_score]' role='measure' type='quantitative' />
+            <column caption='Frl Percent' datatype='real' name='[frl_percent]' role='measure' type='quantitative' />
+            <column-instance column='[Borough]' derivation='None' name='[none:Borough:nk]' pivot='key' type='nominal' />
+            <column-instance column='[School_Name]' derivation='None' name='[none:School_Name:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:School_Name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[avg:avg_sat_score:qk]' scope='rows' value='Average Sat Score' />
+            <format attr='title' class='0' field='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[avg:frl_percent:qk]' scope='rows' value='% of Students eligible for free lunch' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:Borough:nk]' value='131' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='655' />
+                <format attr='maxwidth' value='655' />
+                <format attr='minheight' value='356' />
+                <format attr='maxheight' value='356' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[avg:avg_sat_score:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-color' value='#f28e2b' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[avg:frl_percent:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-color' value='#79706e' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.18v02xw1fllnv0160w3kn1a8o9qj].[avg:avg_sat_score:qk] + [federated.18v02xw1fllnv0160w3kn1a8o9qj].[avg:frl_percent:qk])</rows>
+        <cols>[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:Borough:nk]</cols>
+      </table>
+      <simple-id uuid='{9A056B16-9363-402E-AF46-24A7C4038520}' />
+    </worksheet>
+    <worksheet name='Top 10 highest Schools with Enrollment Rate'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined_data (combined_data)' name='federated.18v02xw1fllnv0160w3kn1a8o9qj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.18v02xw1fllnv0160w3kn1a8o9qj'>
+            <column caption='Total_Enrollment_Rank' datatype='integer' name='[Calculation_1657043243224789005]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='RANK(AVG([total_enrollment]))'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='School Name' datatype='string' name='[School_Name]' role='dimension' type='nominal' />
+            <column-instance column='[School_Name]' derivation='None' name='[none:School_Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[total_enrollment]' derivation='Sum' name='[sum:total_enrollment:qk]' pivot='key' type='quantitative' />
+            <column caption='Total Enrollment' datatype='integer' name='[total_enrollment]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1657043243224789005]' derivation='User' name='[usr:Calculation_1657043243224789005:qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-field='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:School_Name:nk]' ordering-type='Field' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[usr:Calculation_1657043243224789005:qk:2]' included-values='in-range'>
+            <min>1</min>
+            <max>10</max>
+          </filter>
+          <slices>
+            <column>[federated.18v02xw1fllnv0160w3kn1a8o9qj].[usr:Calculation_1657043243224789005:qk:2]</column>
+            <column>[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:School_Name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[sum:total_enrollment:qk]' />
+              <color column='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[usr:Calculation_1657043243224789005:qk:2]' />
+              <text column='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:School_Name:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{C144856D-BEFE-43BE-90CD-DEB3A9D7BDA9}' />
+    </worksheet>
+    <worksheet name='Top 10 highest Schools with Highest Average SAT score'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined_data (combined_data)' name='federated.18v02xw1fllnv0160w3kn1a8o9qj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.18v02xw1fllnv0160w3kn1a8o9qj'>
+            <column caption='Desc_Avg_Sat_Score' datatype='integer' name='[Calculation_1657043243209621515]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='RANK(AVG([avg_sat_score]))'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='School Name' datatype='string' name='[School_Name]' role='dimension' type='nominal' />
+            <column-instance column='[avg_sat_score]' derivation='Avg' name='[avg:avg_sat_score:qk]' pivot='key' type='quantitative' />
+            <column caption='Avg Sat Score' datatype='integer' name='[avg_sat_score]' role='measure' type='quantitative' />
+            <column-instance column='[School_Name]' derivation='None' name='[none:School_Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1657043243209621515]' derivation='User' name='[usr:Calculation_1657043243209621515:qk:1]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[usr:Calculation_1657043243209621515:qk:1]' included-values='in-range'>
+            <min>1</min>
+            <max>10</max>
+          </filter>
+          <slices>
+            <column>[federated.18v02xw1fllnv0160w3kn1a8o9qj].[usr:Calculation_1657043243209621515:qk:1]</column>
+            <column>[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:School_Name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[usr:Calculation_1657043243209621515:qk:1]' scope='cols' value='Rank of Average SAT Score' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[avg:avg_sat_score:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[avg:avg_sat_score:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#69aaa5' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='1169' />
+                <format attr='maxwidth' value='1169' />
+                <format attr='minheight' value='546' />
+                <format attr='maxheight' value='546' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:School_Name:nk]</rows>
+        <cols>[federated.18v02xw1fllnv0160w3kn1a8o9qj].[usr:Calculation_1657043243209621515:qk:1]</cols>
+      </table>
+      <simple-id uuid='{628A244E-81E7-4717-94AE-E47A9D6B8A08}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='SAT Results Analysis'>
+      <style />
+      <size maxheight='768' maxwidth='1024' minheight='768' minwidth='1024' preset-index='2' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97916' id='16' param='vert' type-v2='layout-flow' w='98438' x='781' y='1042'>
+            <zone h='7552' id='17' type-v2='title' w='98438' x='781' y='1042'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='90364' id='14' type-v2='layout-basic' w='98438' x='781' y='8594'>
+              <zone h='45182' id='3' name='Relationship between Racial Demographics and SAT Results in a School' w='49219' x='781' y='8594'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='45182' id='5' name='Relationship between Average SAT Score of school and Socioeconomic factors' w='49219' x='50000' y='8594'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='45182' id='6' name='Relationship between Average SAT Score and Number of People Enrolled in a School' w='49219' x='781' y='53776'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='45182' id='7' name='Relationship between Average SAT Score and Male Percentage in a School' w='49219' x='50000' y='53776'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1250' minheight='1250' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='27' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='26' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone h='7552' id='17' type-v2='title' w='98438' x='781' y='1042'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='45182' id='3' is-fixed='true' name='Relationship between Racial Demographics and SAT Results in a School' w='49219' x='781' y='8594'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='45182' id='5' is-fixed='true' name='Relationship between Average SAT Score of school and Socioeconomic factors' w='49219' x='50000' y='8594'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='45182' id='6' is-fixed='true' name='Relationship between Average SAT Score and Number of People Enrolled in a School' w='49219' x='781' y='53776'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='45182' id='7' is-fixed='true' name='Relationship between Average SAT Score and Male Percentage in a School' w='49219' x='50000' y='53776'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{06F69C7C-83DA-4945-839A-DF90C9861398}' />
+    </dashboard>
+    <dashboard name='SAT Results story' type='storyboard'>
+      <style>
+        <style-rule element='story-point-caption'>
+          <format attr='width' value='472' />
+        </style-rule>
+      </style>
+      <size maxheight='1268' maxwidth='1224' minheight='1268' minwidth='1224' preset-index='2' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98738' id='1' param='vert' removable='false' type-v2='layout-flow' w='98692' x='654' y='631'>
+            <zone h='3943' id='3' type-v2='title' w='98692' x='654' y='631' />
+            <zone h='7965' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98692' x='654' y='4574' />
+            <zone h='86830' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98692' x='654' y='12539'>
+              <flipboard active-id='1' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point caption='Showing positive correlation between SAT scores and Asian and White students, negative correlation with Hispanic and Black students, negative correlation with students from low-income households and positive correlation with total enrollment and diversity of student population.' captured-sheet='SAT Results Analysis' id='1' />
+                  <story-point caption='Bronx is having the lowest Average SAT scores and low economic conditions.' captured-sheet='SAT performance and Borough Demographics' id='2' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{0B202F0D-6681-4C9A-8D2F-CFC11D76AF0A}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='SAT performance and Borough Demographics'>
+      <style />
+      <size maxheight='1200' maxwidth='1000' minheight='1200' minwidth='1000' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98666' id='21' param='vert' type-v2='layout-flow' w='98400' x='800' y='667'>
+            <zone h='4834' id='22' type-v2='title' w='98400' x='800' y='667'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='93832' id='8' param='horz' type-v2='layout-flow' w='98400' x='800' y='5501'>
+              <zone h='93832' id='6' type-v2='layout-basic' w='82400' x='800' y='5501'>
+                <zone h='46916' id='3' name='Relationship between SAT Score and Economic Conditions by Borough' w='82400' x='800' y='5501'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='46916' id='5' name='Racial Diversity per Borough' w='82400' x='800' y='52417'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone fixed-size='160' h='93832' id='7' is-fixed='true' param='vert' type-v2='layout-flow' w='16000' x='83200' y='5501'>
+                <zone h='11167' id='9' name='Racial Diversity per Borough' pane-specification-id='0' param='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[:Measure Names]' type-v2='color' w='16000' x='83200' y='5501'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='750' minheight='750' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='32' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='31' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone h='4834' id='22' type-v2='title' w='98400' x='800' y='667'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='46916' id='3' is-fixed='true' name='Relationship between SAT Score and Economic Conditions by Borough' w='82400' x='800' y='5501'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='46916' id='5' is-fixed='true' name='Racial Diversity per Borough' w='82400' x='800' y='52417'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='11167' id='9' name='Racial Diversity per Borough' pane-specification-id='0' param='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[:Measure Names]' type-v2='color' w='16000' x='83200' y='5501'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{1245E300-3533-45D2-ACD7-DBDB5E9F64E0}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Top Performing Schools'>
+      <style />
+      <size maxheight='800' maxwidth='1400' minheight='800' minwidth='1400' preset-index='1' sizing-mode='fixed' />
+      <datasources>
+        <datasource caption='combined_data (combined_data)' name='federated.18v02xw1fllnv0160w3kn1a8o9qj' />
+      </datasources>
+      <datasource-dependencies datasource='federated.18v02xw1fllnv0160w3kn1a8o9qj'>
+        <column caption='School Name' datatype='string' name='[School_Name]' role='dimension' type='nominal' />
+        <column-instance column='[School_Name]' derivation='None' name='[none:School_Name:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='24' param='vert' type-v2='layout-flow' w='98858' x='571' y='1000'>
+            <zone h='7250' id='25' type-v2='title' w='98858' x='571' y='1000'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='90750' id='22' param='vert' type-v2='layout-flow' w='98858' x='571' y='8250'>
+              <zone h='90750' id='14' param='horz' type-v2='layout-flow' w='98858' x='571' y='8250'>
+                <zone h='90750' id='12' type-v2='layout-basic' w='87429' x='571' y='8250'>
+                  <zone h='90750' id='3' name='Top 10 highest Schools with Highest Average SAT score' w='43707' x='571' y='8250'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='90750' id='11' name='Top 10 highest Schools with Enrollment Rate' w='43722' x='44278' y='8250'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+                <zone fixed-size='160' h='90750' id='13' is-fixed='true' param='vert' type-v2='layout-flow' w='11429' x='88000' y='8250'>
+                  <zone h='10125' id='15' name='Top 10 highest Schools with Enrollment Rate' pane-specification-id='0' param='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[usr:Calculation_1657043243224789005:qk:2]' type-v2='color' w='11429' x='88000' y='8250'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='80625' id='16' name='Top 10 highest Schools with Highest Average SAT score' param='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:School_Name:nk]' type-v2='filter' values='database' w='11429' x='88000' y='18375'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='800' minheight='800' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='35' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='34' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone h='7250' id='25' type-v2='title' w='98858' x='571' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='80625' id='16' mode='checkdropdown' name='Top 10 highest Schools with Highest Average SAT score' param='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[none:School_Name:nk]' type-v2='filter' values='database' w='11429' x='88000' y='18375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='90750' id='3' is-fixed='true' name='Top 10 highest Schools with Highest Average SAT score' w='43707' x='571' y='8250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='90750' id='11' is-fixed='true' name='Top 10 highest Schools with Enrollment Rate' w='43722' x='44278' y='8250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10125' id='15' name='Top 10 highest Schools with Enrollment Rate' pane-specification-id='0' param='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[usr:Calculation_1657043243224789005:qk:2]' type-v2='color' w='11429' x='88000' y='8250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{A4BDB3B7-DAB3-44A1-8DCF-EF43A90FF89B}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' name='Relationship between Racial Demographics and SAT Results in a School'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6AEDCF2C-2006-4893-B0AC-90C072F7F9A0}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Relationship between Average SAT Score of school and Socioeconomic factors'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F6437D71-53FB-40FA-B690-646004ED1738}' />
+    </window>
+    <window class='worksheet' name='Relationship between Average SAT Score and Number of People Enrolled in a School'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{43C307A1-FDCB-4978-8D3F-1C37D37EBF66}' />
+    </window>
+    <window class='worksheet' name='Relationship between Average SAT Score and Male Percentage in a School'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <floating-toolbar-visibility value='1' />
+      </viewpoint>
+      <simple-id uuid='{7C0D550E-B98E-49E5-8F9A-32132A17DB43}' />
+    </window>
+    <window class='worksheet' name='Relationship between SAT Score and Economic Conditions by Borough'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D7354460-4C2C-4543-94B3-6A8E8A7BDCF1}' />
+    </window>
+    <window class='worksheet' name='Racial Diversity per Borough'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{39D8B78C-AC7C-488A-A901-9AC5E8E31D09}' />
+    </window>
+    <window class='worksheet' name='Top 10 highest Schools with Highest Average SAT score'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-height' />
+      </viewpoint>
+      <simple-id uuid='{E0434DE7-FAB2-4DEC-9D34-4E2D9E1EF22E}' />
+    </window>
+    <window class='worksheet' name='Top 10 highest Schools with Enrollment Rate'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='0' param='[federated.18v02xw1fllnv0160w3kn1a8o9qj].[usr:Calculation_1657043243224789005:qk:2]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{82307B46-BAF3-4527-904F-AEF9E8551BD0}' />
+    </window>
+    <window class='dashboard' name='SAT performance and Borough Demographics'>
+      <viewpoints>
+        <viewpoint name='Racial Diversity per Borough'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Relationship between SAT Score and Economic Conditions by Borough'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{4F8DCAF0-59B6-4E5C-87F2-B5382AE29A9C}' />
+    </window>
+    <window class='dashboard' name='Top Performing Schools'>
+      <viewpoints>
+        <viewpoint name='Top 10 highest Schools with Enrollment Rate'>
+          <zoom type='fit-height' />
+        </viewpoint>
+        <viewpoint name='Top 10 highest Schools with Highest Average SAT score'>
+          <zoom type='fit-height' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{A2121FB2-7C66-49F7-A72E-24FA4FBB19E5}' />
+    </window>
+    <window class='dashboard' name='SAT Results Analysis'>
+      <viewpoints>
+        <viewpoint name='Relationship between Average SAT Score and Male Percentage in a School'>
+          <zoom type='entire-view' />
+          <floating-toolbar-visibility value='1' />
+        </viewpoint>
+        <viewpoint name='Relationship between Average SAT Score and Number of People Enrolled in a School'>
+          <zoom type='entire-view' />
+          <floating-toolbar-visibility value='1' />
+        </viewpoint>
+        <viewpoint name='Relationship between Average SAT Score of school and Socioeconomic factors'>
+          <zoom type='entire-view' />
+          <floating-toolbar-visibility value='1' />
+        </viewpoint>
+        <viewpoint name='Relationship between Racial Demographics and SAT Results in a School'>
+          <zoom type='entire-view' />
+          <floating-toolbar-visibility value='1' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{300CDC06-EBF5-4E7A-B753-221D07BD8BEB}' />
+    </window>
+    <window class='dashboard' name='SAT Results story'>
+      <viewpoints />
+      <active id='4' />
+      <simple-id uuid='{C3D9E1A0-21F1-4E97-8CCC-53B066F35594}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Relationship between Average SAT Score of school and Socioeconomic factors' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

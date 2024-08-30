@@ -1,0 +1,5 @@
+"0","hs_directory <- hs_directory %>%"
+"0","    rename (DBN = dbn, Borough=borough) %>%"
+"0","    select (DBN, school_name, Borough, `Location 1`)"
+"0",""
+"0","head(hs_directory)"

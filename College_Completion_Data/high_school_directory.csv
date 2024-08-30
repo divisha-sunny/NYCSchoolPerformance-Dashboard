@@ -1,0 +1,436 @@
+,DBN,school_name,Borough,lat_long,lat,long
+1,27Q260,Frederick Douglass Academy VI High School,Queens,"(40.601989336, -73.762834323)",40.60198934,-73.76283432
+2,21K559,Life Academy High School for Film and Music,Brooklyn,"(40.593593811, -73.984729232)",40.59359381,-73.98472923
+3,16K393,Frederick Douglass Academy IV Secondary School,Brooklyn,"(40.692133704, -73.931503172)",40.6921337,-73.93150317
+4,08X305,Pablo Neruda Academy,Bronx,"(40.822303765, -73.85596139)",40.82230377,-73.85596139
+5,03M485,Fiorello H. LaGuardia High School of Music & Art and Performing Arts,Manhattan,"(40.773670507, -73.985268558)",40.77367051,-73.98526856
+6,02M305,"Urban Assembly Academy of Government and Law, The",Manhattan,"(40.716867224, -73.989531943)",40.71686722,-73.98953194
+7,11X509,High School of Language and Innovation,Bronx,"(40.859698316, -73.860741404)",40.85969832,-73.8607414
+8,17K122,Pathways in Technology Early College High School (P-Tech),Brooklyn,"(40.675402307, -73.938881176)",40.67540231,-73.93888118
+9,08X348,Schuylerville Preparatory High School,Bronx,"(40.840513977, -73.83812096)",40.84051398,-73.83812096
+10,24Q236,International High School for Health Sciences,Queens,"(40.7412052, -73.874729884)",40.7412052,-73.87472988
+11,23K644,Eagle Academy for Young Men II,Brooklyn,"(40.677825501, -73.91582338)",40.6778255,-73.91582338
+12,29Q498,Humanities & Arts Magnet High School,Queens,"(40.695536336, -73.734918342)",40.69553634,-73.73491834
+13,15K462,Secondary School for Law,Brooklyn,"(40.669598175, -73.979255522)",40.66959818,-73.97925552
+14,28Q440,Forest Hills High School,Queens,"(40.729431572, -73.845629073)",40.72943157,-73.84562907
+15,08X367,"Archimedes Academy for Math, Science and Technology Applications",Bronx,"(40.81491834, -73.856565535)",40.81491834,-73.85656554
+16,02M615,Chelsea Career and Technical Education High School,Manhattan,"(40.724352874, -74.004759292)",40.72435287,-74.00475929
+17,04M610,Young Women's Leadership School,Manhattan,"(40.792706956, -73.947299662)",40.79270696,-73.94729966
+18,08X561,Bronx Compass High School,Bronx,"(40.822303765, -73.85596139)",40.82230377,-73.85596139
+19,28Q896,"Young Women's Leadership School, Queens",Queens,"(40.708207826, -73.804077946)",40.70820783,-73.80407795
+20,01M450,East Side Community School,Manhattan,"(40.729782687, -73.983041441)",40.72978269,-73.98304144
+21,27Q262,Channel View School for Research,Queens,"(40.586007187, -73.823089444)",40.58600719,-73.82308944
+22,18K576,Victory Collegiate High School,Brooklyn,"(40.63262743, -73.917797989)",40.63262743,-73.91779799
+23,02M551,Urban Assembly New York Harbor School,Manhattan,"(40.690787629, -74.019757326)",40.69078763,-74.01975733
+24,25Q281,East-West School of International Studies,Queens,"(40.749302805, -73.821808106)",40.74930281,-73.82180811
+25,06M463,High School for Media and Communications,Manhattan,"(40.855938307, -73.927029634)",40.85593831,-73.92702963
+26,17K546,High School for Public Service: Heroes of Tomorrow,Brooklyn,"(40.659517006001, -73.942546499)",40.65951701,-73.9425465
+27,25Q285,World Journalism Preparatory: A College Board School,Queens,"(40.765123273, -73.790059676)",40.76512327,-73.79005968
+28,26Q566,"Queens High School of Teaching, Liberal Arts and the Sciences",Queens,"(40.744904361, -73.726909642)",40.74490436,-73.72690964
+29,03M479,Beacon High School,Manhattan,"(40.772158119, -73.987796535)",40.77215812,-73.98779654
+30,19K409,East New York Family Academy,Brooklyn,"(40.660637024, -73.88634165)",40.66063702,-73.88634165
+31,10X141,Riverdale / Kingsbridge Academy (Middle School / High School 141),Bronx,"(40.888372849, -73.914093204)",40.88837285,-73.9140932
+32,12X267,Bronx Latin,Bronx,"(40.827763979, -73.900386813)",40.82776398,-73.90038681
+33,14K632,Frances Perkins Academy,Brooklyn,"(40.72264264, -73.952583045)",40.72264264,-73.95258305
+34,11X249,Bronx Health Sciences High School,Bronx,"(40.874131798, -73.833804513)",40.8741318,-73.83380451
+35,06M211,Inwood Early College for Health and Information Technologies,Manhattan,"(40.866045549, -73.924856642)",40.86604555,-73.92485664
+36,28Q680,Queens Gateway to Health Sciences Secondary School,Queens,"(40.718810094, -73.806500455)",40.71881009,-73.80650046
+37,30Q301,Academy for Careers in Television and Film,Queens,"(40.741137328, -73.949688599)",40.74113733,-73.9496886
+38,06M467,High School for Law and Public Service,Manhattan,"(40.855938307, -73.927029634)",40.85593831,-73.92702963
+39,04M680,"Heritage School, The",Manhattan,"(40.791879618, -73.9465864)",40.79187962,-73.9465864
+40,20K505,Franklin Delano Roosevelt High School,Brooklyn,"(40.620263373, -73.982011)",40.62026337,-73.982011
+41,17K600,Clara Barton High School,Brooklyn,"(40.670270557, -73.961654824)",40.67027056,-73.96165482
+42,14K488,Brooklyn Preparatory High School,Brooklyn,"(40.715037551, -73.954649959)",40.71503755,-73.95464996
+43,03M494,High School of Arts and Technology,Manhattan,"(40.774296411, -73.984822701)",40.77429641,-73.9848227
+44,06M552,Gregorio Luperon High School for Science and Mathematics,Manhattan,"(40.838032322, -73.938371018)",40.83803232,-73.93837102
+45,27Q308,Robert H. Goddard High School of Communication Arts and Technology,Queens,"(40.671769478001, -73.844977739)",40.67176948,-73.84497774
+46,02M439,Manhattan Village Academy,Manhattan,"(40.741494699001, -73.991445053)",40.7414947,-73.99144505
+47,31R460,Susan E. Wagner High School,Staten Island,"(40.598652386, -74.123104759)",40.59865239,-74.12310476
+48,29Q327,Eagle Academy for Young Men III,Queens,"(40.691670189, -73.779028606)",40.69167019,-73.77902861
+49,19K404,Academy for Young Writers,Brooklyn,"(40.657522602, -73.874777025)",40.6575226,-73.87477703
+50,11X513,New World High School,Bronx,"(40.887919214, -73.852871614)",40.88791921,-73.85287161
+51,20K490,Fort Hamilton High School,Brooklyn,"(40.627913373, -74.039952338)",40.62791337,-74.03995234
+52,06M468,High School for Health Careers and Sciences,Manhattan,"(40.855938307, -73.927029634)",40.85593831,-73.92702963
+53,13K595,Bedford Academy High School,Brooklyn,"(40.685381269, -73.9542676)",40.68538127,-73.9542676
+54,23K493,Brooklyn Collegiate: A College Board School,Brooklyn,"(40.674137383, -73.913494491)",40.67413738,-73.91349449
+55,10X696,High School of American Studies at Lehman College,Bronx,"(40.871255374001, -73.897516204)",40.87125537,-73.8975162
+56,02M414,N.Y.C. Museum School,Manhattan,"(40.742100713, -74.002073797)",40.74210071,-74.0020738
+57,17K528,The High School for Global Citizenship,Brooklyn,"(40.670298907, -73.961647876)",40.67029891,-73.96164788
+58,02M376,NYC iSchool,Manhattan,"(40.724352874, -74.004759292)",40.72435287,-74.00475929
+59,09X227,Bronx Collegiate Academy,Bronx,"(40.840373398, -73.910838008)",40.8403734,-73.91083801
+60,28Q690,High School for Law Enforcement and Public Safety,Queens,"(40.686178083, -73.784082975)",40.68617808,-73.78408298
+61,12X521,The Metropolitan Soundview High School,Bronx,"(40.83136649, -73.878823277)",40.83136649,-73.87882328
+62,02M316,"Urban Assembly School of Business for Young Women, the",Manhattan,"(40.705234939, -74.01331504)",40.70523494,-74.01331504
+63,06M540,A. Philip Randolph Campus High School,Manhattan,"(40.818321269, -73.950613828)",40.81832127,-73.95061383
+64,07X500,Hostos-Lincoln Academy of Science,Bronx,"(40.814955342, -73.912519542)",40.81495534,-73.91251954
+65,02M531,Repertory Company High School for Theatre Arts,Manhattan,"(40.755942582001, -73.984567702)",40.75594258,-73.9845677
+66,15K464,Park Slope Collegiate,Brooklyn,"(40.669598175, -73.979255522)",40.66959818,-73.97925552
+67,28Q310,Queens Collegiate: A College Board School,Queens,"(40.713577459, -73.796517825)",40.71357746,-73.79651783
+68,13K499,ACORN Community High School,Brooklyn,"(40.678508914, -73.962067306)",40.67850891,-73.96206731
+69,19K660,W. H. Maxwell Career and Technical Education High School,Brooklyn,"(40.674224214, -73.896453521)",40.67422421,-73.89645352
+70,28Q284,York Early College Academy,Queens,"(40.696937358, -73.786981541)",40.69693736,-73.78698154
+71,32K168,The Brooklyn School for Math and Research,Brooklyn,"(40.696961848, -73.910815939)",40.69696185,-73.91081594
+72,03M541,Manhattan / Hunter Science High School,Manhattan,"(40.774296411, -73.984822701)",40.77429641,-73.9848227
+73,02M449,Vanguard High School,Manhattan,"(40.765445402, -73.960213786)",40.7654454,-73.96021379
+74,28Q325,Hillside Arts & Letters Academy,Queens,"(40.713577459, -73.796517825)",40.71357746,-73.79651783
+75,14K477,School for Legal Studies,Brooklyn,"(40.711963113, -73.940434367)",40.71196311,-73.94043437
+76,05M369,Urban Assembly School for the Performing Arts,Manhattan,"(40.815230365, -73.955201206)",40.81523037,-73.95520121
+77,07X427,Community School for Social Justice,Bronx,"(40.816084481, -73.930323839)",40.81608448,-73.93032384
+78,02M543,New Design High School,Manhattan,"(40.716867224, -73.989531943)",40.71686722,-73.98953194
+79,14K478,"The High School for Enterprise, Business and Technology",Brooklyn,"(40.711963113, -73.940434367)",40.71196311,-73.94043437
+80,23K697,Teachers Preparatory High School,Brooklyn,"(40.665810912, -73.911699645)",40.66581091,-73.91169965
+81,03M307,"Urban Assembly School for Media Studies, The",Manhattan,"(40.774296411, -73.984822701)",40.77429641,-73.9848227
+82,02M475,Stuyvesant High School,Manhattan,"(40.717746415, -74.014049043)",40.71774642,-74.01404904
+83,16K765,Nelson Mandela School for Social Justice,Brooklyn,"(40.679433045, -73.93243177)",40.67943305,-73.93243177
+84,05M304,Mott Hall High School,Manhattan,"(40.817361046, -73.947708421)",40.81736105,-73.94770842
+85,30Q258,Energy Tech High School,Queens,"(40.757097156001, -73.932618401)",40.75709716,-73.9326184
+86,21K348,High School of Sports Management,Brooklyn,"(40.593593811, -73.984729232)",40.59359381,-73.98472923
+87,15K429,Brooklyn School for Global Studies,Brooklyn,"(40.685451806, -73.993491465)",40.68545181,-73.99349147
+88,27Q323,Scholars' Academy,Queens,"(40.584131374, -73.825681212)",40.58413137,-73.82568121
+89,21K540,John Dewey High School,Brooklyn,"(40.589238098, -73.981746524)",40.5892381,-73.98174652
+90,10X438,Fordham Leadership Academy for Business and Technology,Bronx,"(40.860012221, -73.888229604)",40.86001222,-73.8882296
+91,05M499,Frederick Douglass Academy,Manhattan,"(40.824308385, -73.936979613)",40.82430839,-73.93697961
+92,02M432,Murray Hill Academy,Manhattan,"(40.746106375, -73.981009667)",40.74610638,-73.98100967
+93,08X376,Antonia Pantoja Preparatory Academy: A College Board School,Bronx,"(40.822303765, -73.85596139)",40.82230377,-73.85596139
+94,14K561,Williamsburg Preparatory School,Brooklyn,"(40.715037551, -73.954649959)",40.71503755,-73.95464996
+95,27Q314,Epic High School – South,Queens,"(40.675735922, -73.816968336)",40.67573592,-73.81696834
+96,10X437,Fordham High School for the Arts,Bronx,"(40.860012221, -73.888229604)",40.86001222,-73.8882296
+97,15K656,Brooklyn High School of the Arts,Brooklyn,"(40.68365399, -73.980472751)",40.68365399,-73.98047275
+98,16K498,Brooklyn High School for Law and Technology,Brooklyn,"(40.688925542, -73.921084099)",40.68892554,-73.9210841
+99,24Q485,Grover Cleveland High School,Queens,"(40.711222195, -73.90865213)",40.7112222,-73.90865213
+100,30Q450,Long Island City High School,Queens,"(40.765763938, -73.932725985)",40.76576394,-73.93272599
+101,11X545,Bronx Aerospace High School,Bronx,"(40.875754211, -73.861387834)",40.87575421,-73.86138783
+102,14K449,"Brooklyn Latin School, The",Brooklyn,"(40.70989996, -73.943659935)",40.70989996,-73.94365994
+103,27Q650,"High School for Construction Trades, Engineering and Architecture",Queens,"(40.689396826, -73.840641001)",40.68939683,-73.840641
+104,15K519,Cobble Hill School of American Studies,Brooklyn,"(40.684579137, -73.991093163)",40.68457914,-73.99109316
+105,11X544,High School for Contemporary Arts,Bronx,"(40.875754211, -73.861387834)",40.87575421,-73.86138783
+106,13K527,Urban Assembly Institute of Math and Science for Young Women,Brooklyn,"(40.694620119, -73.988623945)",40.69462012,-73.98862395
+107,09X543,High School for Violin and Dance,Bronx,"(40.827602669001, -73.904475257)",40.82760267,-73.90447526
+108,02M534,Harvest Collegiate High School,Manhattan,"(40.736764826, -73.995511133)",40.73676483,-73.99551113
+109,25Q525,Townsend Harris High School,Queens,"(40.73440841, -73.821417483)",40.73440841,-73.82141748
+110,09X365,Academy for Language and Technology,Bronx,"(40.849102168, -73.916088441)",40.84910217,-73.91608844
+111,12X248,"Metropolitan High School, The",Bronx,"(40.82522606, -73.893949889)",40.82522606,-73.89394989
+112,09X276,Leadership Institute,Bronx,"(40.841270878001, -73.897978677)",40.84127088,-73.89797868
+113,02M418,Millennium High School,Manhattan,"(40.704920366, -74.011514023)",40.70492037,-74.01151402
+114,02M416,Eleanor Roosevelt High School,Manhattan,"(40.770116471, -73.953379101)",40.77011647,-73.9533791
+115,28Q350,Jamaica Gateway to the Sciences,Queens,"(40.713577459, -73.796517825)",40.71357746,-73.79651783
+116,26Q495,Bayside High School,Queens,"(40.771867242001, -73.780386952)",40.77186724,-73.78038695
+117,07X520,Foreign Language Academy of Global Studies,Bronx,"(40.811138856, -73.909787127)",40.81113886,-73.90978713
+118,17K533,School for Democracy and Leadership,Brooklyn,"(40.659517006001, -73.942546499)",40.65951701,-73.9425465
+119,01M292,Henry Street School for International Studies,Manhattan,"(40.713763947, -73.98526004)",40.71376395,-73.98526004
+120,07X548,Urban Assembly School for Careers in Sports,Bronx,"(40.82277649, -73.923522794)",40.82277649,-73.92352279
+121,11X270,Academy for Scholarship and Entrepreneurship: A College Board School,Bronx,"(40.887919214, -73.852871614)",40.88791921,-73.85287161
+122,29Q492,"Mathematics, Science Research and Technology Magnet High School",Queens,"(40.695536336, -73.734918342)",40.69553634,-73.73491834
+123,02M420,High School for Health Professions and Human Services,Manhattan,"(40.732485378, -73.983053388)",40.73248538,-73.98305339
+124,18K637,Academy for Conservation and the Environment,Brooklyn,"(40.63262743, -73.917797989)",40.63262743,-73.91779799
+125,14K614,Young Women's Leadership School of Brooklyn,Brooklyn,"(40.705600543, -73.939478067)",40.70560054,-73.93947807
+126,09X324,Bronx Early College Academy for Teaching & Learning,Bronx,"(40.82871418, -73.917755702)",40.82871418,-73.9177557
+127,02M427,MANHATTAN ACADEMY FOR ARTS & LANGUAGE,Manhattan,"(40.746106375, -73.981009667)",40.74610638,-73.98100967
+128,02M135,The Urban Assembly School for Emergency Management,Manhattan,"(40.763361732, -73.990509091)",40.76336173,-73.99050909
+129,08X519,"Felisa Rincon de Gautier Institute for Law and Public Policy, The",Bronx,"(40.82117077, -73.881136346)",40.82117077,-73.88113635
+130,03M417,FRANK McCOURT HIGH SCHOOL,Manhattan,"(40.785743157, -73.974415228)",40.78574316,-73.97441523
+131,14K454,Green School: An Academy for Environmental Careers,Brooklyn,"(40.70989996, -73.943659935)",40.70989996,-73.94365994
+132,24Q550,High School for Arts and Business,Queens,"(40.73741817, -73.85330573)",40.73741817,-73.85330573
+133,03M859,Special Music School,Manhattan,"(40.774296411, -73.984822701)",40.77429641,-73.9848227
+134,32K403,Academy for Environmental Leadership,Brooklyn,"(40.696961848, -73.910815939)",40.69696185,-73.91081594
+135,01M448,University Neighborhood High School,Manhattan,"(40.712331851001, -73.984796625)",40.71233185,-73.98479663
+136,30Q575,Academy of American Studies,Queens,"(40.751300578, -73.937423877)",40.75130058,-73.93742388
+137,15K463,Secondary School for Journalism,Brooklyn,"(40.669598175, -73.979255522)",40.66959818,-73.97925552
+138,11X253,Bronx High School for Writing and Communication Arts,Bronx,"(40.875754211, -73.861387834)",40.87575421,-73.86138783
+139,08X558,Westchester Square Academy,Bronx,"(40.840513977, -73.83812096)",40.84051398,-73.83812096
+140,21K410,Abraham Lincoln High School,Brooklyn,"(40.582308363, -73.967465747)",40.58230836,-73.96746575
+141,02M507,Urban Assembly Gateway School for Technology,Manhattan,"(40.763361732, -73.990509091)",40.76336173,-73.99050909
+142,11X514,The Bronxwood Preparatory Academy,Bronx,"(40.887919214, -73.852871614)",40.88791921,-73.85287161
+143,09X260,Bronx Center for Science and Mathematics,Bronx,"(40.833738559, -73.902448245)",40.83373856,-73.90244825
+144,08X530,Banana Kelly High School,Bronx,"(40.817439446, -73.898049206)",40.81743945,-73.89804921
+145,26Q315,Business Technology Early College High School,Queens,"(40.732817109, -73.739650413)",40.73281711,-73.73965041
+146,02M288,Food and Finance High School,Manhattan,"(40.765026708, -73.992516578)",40.76502671,-73.99251658
+147,25Q241,Queens High School for Language Studies,Queens,"(40.765243471, -73.827855282)",40.76524347,-73.82785528
+148,02M393,BUSINESS OF SPORTS SCHOOL,Manhattan,"(40.763361732, -73.990509091)",40.76336173,-73.99050909
+149,11X455,Harry S Truman High School,Bronx,"(40.874131798, -73.833804513)",40.8741318,-73.83380451
+150,19K583,Multicultural High School,Brooklyn,"(40.691143962, -73.868426057)",40.69114396,-73.86842606
+151,25Q240,Veritas Academy,Queens,"(40.765243471, -73.827855282)",40.76524347,-73.82785528
+152,08X452,Bronx Guild,Bronx,"(40.822303765, -73.85596139)",40.82230377,-73.85596139
+153,02M545,High School for Dual Language and Asian Studies,Manhattan,"(40.716867224, -73.989531943)",40.71686722,-73.98953194
+154,19K507,Performing Arts and Technology High School,Brooklyn,"(40.667553111, -73.894800537)",40.66755311,-73.89480054
+155,32K545,EBC High School for Public Service - Bushwick,Brooklyn,"(40.694481845, -73.929153528)",40.69448185,-73.92915353
+156,02M282,Urban Assembly Maker Academy,Manhattan,"(40.709336073, -74.005299345)",40.70933607,-74.00529935
+157,19K764,The Urban Assembly School for Collaborative Healthcare,Brooklyn,"(40.691143962, -73.868426057)",40.69114396,-73.86842606
+158,12X251,Explorations Academy,Bronx,"(40.835937328, -73.890467693)",40.83593733,-73.89046769
+159,24Q520,Middle College High School at LaGuardia Community College,Queens,"(40.744149536, -73.933626741)",40.74414954,-73.93362674
+160,27Q334,Epic High School – North,Queens,"(40.692877066, -73.829305581)",40.69287707,-73.82930558
+161,13K674,"City Polytechnic High School of Engineering, Architecture, and Technology",Brooklyn,"(40.694944407, -73.986035324)",40.69494441,-73.98603532
+162,26Q430,Francis Lewis High School,Queens,"(40.740555714, -73.792848146)",40.74055571,-73.79284815
+163,14K558,Williamsburg High School for Architecture and Design,Brooklyn,"(40.715037551, -73.954649959)",40.71503755,-73.95464996
+164,02M519,Talent Unlimited High School,Manhattan,"(40.765445402, -73.960213786)",40.7654454,-73.96021379
+165,09X250,Eximius College Preparatory Academy: A College Board School,Bronx,"(40.833738559, -73.902448245)",40.83373856,-73.90244825
+166,02M529,Jacqueline Kennedy Onassis High School,Manhattan,"(40.757757386, -73.983187793)",40.75775739,-73.98318779
+167,09X252,Mott Hall Bronx High School,Bronx,"(40.839327126, -73.90130979)",40.83932713,-73.90130979
+168,29Q272,George Washington Carver High School for the Sciences,Queens,"(40.668232288, -73.756839894)",40.66823229,-73.75683989
+169,31R047,CSI High School for International Studies,Staten Island,"(40.582022026, -74.157848419)",40.58202203,-74.15784842
+170,29Q283,Preparatory Academy for Writers: A College Board School,Queens,"(40.668232288, -73.756839894)",40.66823229,-73.75683989
+171,24Q530,International High School at LaGuardia Community College,Queens,"(40.744149536, -73.933626741)",40.74414954,-73.93362674
+172,16K594,Gotham Professional Arts Academy,Brooklyn,"(40.680455473, -73.922196092)",40.68045547,-73.92219609
+173,24Q299,Bard High School Early College Queens,Queens,"(40.745093519, -73.936813898)",40.74509352,-73.9368139
+174,18K617,High School for Innovation in Advertising and Media,Brooklyn,"(40.641844268, -73.898687291)",40.64184427,-73.89868729
+175,10X284,Bronx School of Law and Finance,Bronx,"(40.877049443, -73.912336599)",40.87704944,-73.9123366
+176,29Q259,Pathways College Preparatory School: A College Board School,Queens,"(40.706387658, -73.753530022)",40.70638766,-73.75353002
+177,24Q585,Maspeth High School,Queens,"(40.729538482, -73.887390523)",40.72953848,-73.88739052
+178,09X350,New Directions Secondary School,Bronx,"(40.840373398, -73.910838008)",40.8403734,-73.91083801
+179,02M542,Manhattan Bridges High School,Manhattan,"(40.765026708, -73.992516578)",40.76502671,-73.99251658
+180,14K685,El Puente Academy for Peace and Justice,Brooklyn,"(40.705765931, -73.955728572)",40.70576593,-73.95572857
+181,10X351,Bronx Collaborative High School,Bronx,"(40.88008184, -73.885901533)",40.88008184,-73.88590153
+182,21K468,Kingsborough Early College School,Brooklyn,"(40.593593811, -73.984729232)",40.59359381,-73.98472923
+183,02M139,Stephen T. Mather Building Arts & Craftsmanship High School,Manhattan,"(40.710679471, -74.000807021)",40.71067947,-74.00080702
+184,02M374,Gramercy Arts High School,Manhattan,"(40.735519463, -73.987604249)",40.73551946,-73.98760425
+185,18K642,Urban Action Academy,Brooklyn,"(40.641844268, -73.898687291)",40.64184427,-73.89868729
+186,32K556,Bushwick Leaders High School for Academic Excellence,Brooklyn,"(40.694995763, -73.927986267)",40.69499576,-73.92798627
+187,28Q687,Queens High School for the Sciences at York College,Queens,"(40.700998767001, -73.798153524)",40.70099877,-73.79815352
+188,13K605,George Westinghouse Career and Technical Education High School,Brooklyn,"(40.694944407, -73.986035324)",40.69494441,-73.98603532
+189,10X477,Marble Hill High School for International Studies,Bronx,"(40.877049443, -73.912336599)",40.87704944,-73.9123366
+190,32K552,Academy of Urban Planning,Brooklyn,"(40.696961848, -73.910815939)",40.69696185,-73.91081594
+191,19K422,Spring Creek Community School,Brooklyn,"(40.657522602, -73.874777025)",40.6575226,-73.87477703
+192,13K412,"Brooklyn Community High School of Communication, Arts and Media",Brooklyn,"(40.692582256, -73.958873117)",40.69258226,-73.95887312
+193,02M280,Manhattan Early College School for Advertising,Manhattan,"(40.710679471, -74.000807021)",40.71067947,-74.00080702
+194,29Q326,Cambria Heights Academy,Queens,"(40.71181822, -73.771191876)",40.71181822,-73.77119188
+195,09X231,Eagle Academy for Young Men,Bronx,"(40.845185327, -73.896980668)",40.84518533,-73.89698067
+196,05M157,The Urban Assembly School for Global Commerce,Manhattan,"(40.807342087, -73.939434187)",40.80734209,-73.93943419
+197,13K265,Dr. Susan S. McKinney Secondary School of the Arts,Brooklyn,"(40.696343773, -73.975771102)",40.69634377,-73.9757711
+198,02M400,High School for Environmental Studies,Manhattan,"(40.767762439, -73.987511214)",40.76776244,-73.98751121
+199,10X237,"The Marie Curie School for Medicine, Nursing, and Health Professions",Bronx,"(40.875975449, -73.901234892)",40.87597545,-73.90123489
+200,10X225,Theatre Arts Production Company School,Bronx,"(40.854646599, -73.896645553)",40.8546466,-73.89664555
+201,19K502,FDNY High School for Fire and Life Safety,Brooklyn,"(40.667553111, -73.894800537)",40.66755311,-73.89480054
+202,02M459,Manhattan International High School,Manhattan,"(40.765445402, -73.960213786)",40.7654454,-73.96021379
+203,02M412,N.Y.C. Lab School for Collaborative Studies,Manhattan,"(40.742100713, -74.002073797)",40.74210071,-74.0020738
+204,19K504,High School for Civil Rights,Brooklyn,"(40.667553111, -73.894800537)",40.66755311,-73.89480054
+205,02M392,MANHATTAN BUSINESS ACADEMY,Manhattan,"(40.742888101, -74.002127381)",40.7428881,-74.00212738
+206,31R080,The Michael J. Petrides School,Staten Island,"(40.607453024, -74.10148223)",40.60745302,-74.10148223
+207,27Q302,"Queens High School for Information, Research, and Technology",Queens,"(40.601989336, -73.762834323)",40.60198934,-73.76283432
+208,29Q313,Benjamin Franklin High School for Finance & Information Technology,Queens,"(40.697807330001, -73.745857755)",40.69780733,-73.74585776
+209,31R440,New Dorp High School,Staten Island,"(40.569182427001, -74.107300808)",40.56918243,-74.10730081
+210,09X329,DreamYard Preparatory School,Bronx,"(40.840373398, -73.910838008)",40.8403734,-73.91083801
+211,02M296,High School of Hospitality Management,Manhattan,"(40.765026708, -73.992516578)",40.76502671,-73.99251658
+212,09X403,Bronx International High School,Bronx,"(40.827602669001, -73.904475257)",40.82760267,-73.90447526
+213,02M399,THE HIGH SCHOOL FOR LANGUAGE AND DIPLOMACY,Manhattan,"(40.735519463, -73.987604249)",40.73551946,-73.98760425
+214,02M308,Lower Manhattan Arts Academy,Manhattan,"(40.716867224, -73.989531943)",40.71686722,-73.98953194
+215,02M419,Landmark High School,Manhattan,"(40.742888101, -74.002127381)",40.7428881,-74.00212738
+216,31R064,Gaynor McCown Expeditionary Learning School,Staten Island,"(40.582022026, -74.157848419)",40.58202203,-74.15784842
+217,19K618,Academy of Innovative Technology,Brooklyn,"(40.691143962, -73.868426057)",40.69114396,-73.86842606
+218,12X372,Urban Assembly School for Wildlife Conservation,Bronx,"(40.844039958, -73.884686973)",40.84403996,-73.88468697
+219,10X434,Belmont Preparatory High School,Bronx,"(40.860012221, -73.888229604)",40.86001222,-73.8882296
+220,10X353,World View High School,Bronx,"(40.88008184, -73.885901533)",40.88008184,-73.88590153
+221,12X278,Peace and Diversity Academy,Bronx,"(40.82522606, -73.893949889)",40.82522606,-73.89394989
+222,18K589,Arts & Media Preparatory Academy,Brooklyn,"(40.65845703, -73.929033174)",40.65845703,-73.92903317
+223,07X670,Health Opportunities High School,Bronx,"(40.816084481, -73.930323839)",40.81608448,-73.93032384
+224,10X213,Bronx Engineering and Technology Academy,Bronx,"(40.877049443, -73.912336599)",40.87704944,-73.9123366
+225,02M489,High School of Economics and Finance,Manhattan,"(40.709219625, -74.012025915)",40.70921963,-74.01202592
+226,09X241,"Urban Assembly School for Applied Math and Science, The",Bronx,"(40.839327126, -73.90130979)",40.83932713,-73.90130979
+227,02M298,Pace High School,Manhattan,"(40.716412393001, -73.992675844)",40.71641239,-73.99267584
+228,21K620,William E. Grady Career and Technical Education High School,Brooklyn,"(40.582548038, -73.963716221)",40.58254804,-73.96371622
+229,19K639,Brooklyn Lab School,Brooklyn,"(40.691143962, -73.868426057)",40.69114396,-73.86842606
+230,13K430,Brooklyn Technical High School,Brooklyn,"(40.688107423, -73.976745072)",40.68810742,-73.97674507
+231,02M425,Leadership and Public Service High School,Manhattan,"(40.709146539, -74.012076627)",40.70914654,-74.01207663
+232,07X547,New Explorers High School,Bronx,"(40.82277649, -73.923522794)",40.82277649,-73.92352279
+233,02M630,Art and Design High School,Manhattan,"(40.765401541, -73.981768246)",40.76540154,-73.98176825
+234,02M605,Humanities Preparatory Academy,Manhattan,"(40.742888101, -74.002127381)",40.7428881,-74.00212738
+235,18K633,High School for Medical Professions,Brooklyn,"(40.641844268, -73.898687291)",40.64184427,-73.89868729
+236,08X559,School for Tourism and Hospitality,Bronx,"(40.821887341, -73.903438055)",40.82188734,-73.90343806
+237,13K419,"Science Skills Center High School for Science, Technology and the Creative Arts",Brooklyn,"(40.697174727, -73.984959689)",40.69717473,-73.98495969
+238,02M600,The High School of Fashion Industries,Manhattan,"(40.745111571, -73.99590642)",40.74511157,-73.99590642
+239,02M500,Unity Center for Urban Technologies,Manhattan,"(40.746106375, -73.981009667)",40.74610638,-73.98100967
+240,12X550,High School of World Cultures,Bronx,"(40.83136649, -73.878823277)",40.83136649,-73.87882328
+241,12X692,Monroe Academy for Visual Arts & Design,Bronx,"(40.83136649, -73.878823277)",40.83136649,-73.87882328
+242,17K590,Medgar Evers College Preparatory School,Brooklyn,"(40.667162082, -73.950857955)",40.66716208,-73.95085796
+243,10X549,Discovery High School,Bronx,"(40.870377467, -73.898162952)",40.87037747,-73.89816295
+244,03M492,"High School for Law, Advocacy and Community Justice",Manhattan,"(40.774296411, -73.984822701)",40.77429641,-73.9848227
+245,22K535,Leon M. Goldstein High School for the Sciences,Brooklyn,"(40.580847136001, -73.936088569)",40.58084714,-73.93608857
+246,27Q400,August Martin High School,Queens,"(40.675526809, -73.783432513)",40.67552681,-73.78343251
+247,11X508,Bronxdale High School,Bronx,"(40.859698316, -73.860741404)",40.85969832,-73.8607414
+248,07X527,Bronx Leadership Academy II High School,Bronx,"(40.82277649, -73.923522794)",40.82277649,-73.92352279
+249,03M860,Frederick Douglass Academy II Secondary School,Manhattan,"(40.802174581, -73.954008828)",40.80217458,-73.95400883
+250,12X271,East Bronx Academy for the Future,Bronx,"(40.836953426, -73.887961758)",40.83695343,-73.88796176
+251,31R600,Ralph R. McKee Career and Technical Education High School,Staten Island,"(40.642741044, -74.078711063)",40.64274104,-74.07871106
+252,24Q600,Queens Vocational and Technical High School,Queens,"(40.742188694, -73.928243292)",40.74218869,-73.92824329
+253,14K610,Automotive High School,Brooklyn,"(40.72264264, -73.952583045)",40.72264264,-73.95258305
+254,04M555,Central Park East High School,Manhattan,"(40.793678882, -73.949416495)",40.79367888,-73.9494165
+255,28Q686,QUEENS METROPOLITAN HIGH SCHOOL,Queens,"(40.710435548, -73.850630155)",40.71043555,-73.85063016
+256,10X442,"Celia Cruz Bronx High School of Music, The",Bronx,"(40.870377467, -73.898162952)",40.87037747,-73.89816295
+257,17K382,Academy for College Preparation and Career Exploration: A College Board School,Brooklyn,"(40.649439675, -73.958431198)",40.64943968,-73.9584312
+258,09X404,School for Excellence,Bronx,"(40.827602669001, -73.904475257)",40.82760267,-73.90447526
+259,27Q351,Rockaway Collegiate High School,Queens,"(40.586007187, -73.823089444)",40.58600719,-73.82308944
+260,26Q415,Benjamin N. Cardozo High School,Queens,"(40.752392424, -73.756083358)",40.75239242,-73.75608336
+261,11X288,Collegiate Institute for Math and Science,Bronx,"(40.859698316, -73.860741404)",40.85969832,-73.8607414
+262,31R605,Staten Island Technical High School,Staten Island,"(40.567913003, -74.115362243)",40.567913,-74.11536224
+263,10X374,Knowledge and Power Preparatory Academy International High School (Kappa),Bronx,"(40.860012221, -73.888229604)",40.86001222,-73.8882296
+264,07X495,University Heights Secondary School,Bronx,"(40.818173536, -73.911092663)",40.81817354,-73.91109266
+265,29Q243,Institute for Health Professions at Cambria Heights,Queens,"(40.695536336, -73.734918342)",40.69553634,-73.73491834
+266,25Q670,Robert F. Kennedy Community High School,Queens,"(40.725603161, -73.810721147)",40.72560316,-73.81072115
+267,15K497,School for International Studies,Brooklyn,"(40.685451806, -73.993491465)",40.68545181,-73.99349147
+268,02M437,Hudson High School of Learning Technologies,Manhattan,"(40.742888101, -74.002127381)",40.7428881,-74.00212738
+269,11X299,Astor Collegiate Academy,Bronx,"(40.859698316, -73.860741404)",40.85969832,-73.8607414
+270,05M362,Columbia Secondary School,Manhattan,"(40.810917853, -73.956927387)",40.81091785,-73.95692739
+271,29Q248,Queens Preparatory Academy,Queens,"(40.668232288, -73.756839894)",40.66823229,-73.75683989
+272,05M670,Thurgood Marshall Academy for Learning and Social Change,Manhattan,"(40.815364829, -73.94389671)",40.81536483,-73.94389671
+273,05M367,Academy for Social Action: A College Board School,Manhattan,"(40.815230365, -73.955201206)",40.81523037,-73.95520121
+274,17K531,"School for Human Rights, The",Brooklyn,"(40.659517006001, -73.942546499)",40.65951701,-73.9425465
+275,11X542,Pelham Preparatory Academy,Bronx,"(40.859698316, -73.860741404)",40.85969832,-73.8607414
+276,03M403,The Global Learning Collaborative,Manhattan,"(40.785743157, -73.974415228)",40.78574316,-73.97441523
+277,09X517,Frederick Douglass Academy III Secondary School,Bronx,"(40.83416725, -73.904032948)",40.83416725,-73.90403295
+278,04M409,Coalition School for Social Change,Manhattan,"(40.798865182001, -73.933365597)",40.79886518,-73.9333656
+279,31R450,Curtis High School,Staten Island,"(40.644744901, -74.081341274)",40.6447449,-74.08134127
+280,09X505,"Bronx School for Law, Government and Justice",Bronx,"(40.827589367, -73.91866816)",40.82758937,-73.91866816
+281,24Q296,Pan American International High School,Queens,"(40.743302873, -73.870574977)",40.74330287,-73.87057498
+282,17K547,Brooklyn Academy of Science and the Environment,Brooklyn,"(40.670298907, -73.961647876)",40.67029891,-73.96164788
+283,02M411,Baruch College Campus High School,Manhattan,"(40.744047248, -73.991479299)",40.74404725,-73.9914793
+284,31R445,Port Richmond High School,Staten Island,"(40.633842987, -74.142106889)",40.63384299,-74.14210689
+285,09X525,Bronx Leadership Academy High School,Bronx,"(40.843581195, -73.903220038)",40.8435812,-73.90322004
+286,10X524,Crotona International High School,Bronx,"(40.85592271, -73.88257898)",40.85592271,-73.88257898
+287,02M047,47 The American Sign Language and English Secondary School,Manhattan,"(40.738599087, -73.982511911)",40.73859909,-73.98251191
+288,11X275,High School of Computers and Technology,Bronx,"(40.875754211, -73.861387834)",40.87575421,-73.86138783
+289,04M435,Manhattan Center for Science and Mathematics,Manhattan,"(40.793741706, -73.934084142)",40.79374171,-73.93408414
+290,24Q267,High School of Applied Communication,Queens,"(40.745093519, -73.936813898)",40.74509352,-73.9368139
+291,19K510,World Academy for Total Community Health High School,Brooklyn,"(40.667553111, -73.894800537)",40.66755311,-73.89480054
+292,12X478,THE CINEMA SCHOOL,Bronx,"(40.831364532, -73.878344675)",40.83136453,-73.87834468
+293,09X413,Bronx High School for Medical Science,Bronx,"(40.840373398, -73.910838008)",40.8403734,-73.91083801
+294,22K611,Origins High School,Brooklyn,"(40.594192997, -73.936838096)",40.594193,-73.9368381
+295,17K745,Brooklyn Institute for Liberal Arts,Brooklyn,"(40.659517006001, -73.942546499)",40.65951701,-73.9425465
+296,26Q435,Martin Van Buren High School,Queens,"(40.732817109, -73.739650413)",40.73281711,-73.73965041
+297,27Q324,Rockaway Park High School for Environmental Sustainability,Queens,"(40.586007187, -73.823089444)",40.58600719,-73.82308944
+298,30Q502,Information Technology High School,Queens,"(40.747923523, -73.946565659)",40.74792352,-73.94656566
+299,28Q505,Hillcrest High School,Queens,"(40.708757555, -73.802127486)",40.70875756,-73.80212749
+300,17K751,Academy for Health Careers,Brooklyn,"(40.675402307, -73.938881176)",40.67540231,-73.93888118
+301,32K554,All City Leadership Secondary School,Brooklyn,"(40.697407796, -73.913153462)",40.6974078,-73.91315346
+302,07X551,The Urban Assembly Bronx Academy of Letters,Bronx,"(40.813359303, -73.925536515)",40.8133593,-73.92553652
+303,01M509,Marta Valle High School,Manhattan,"(40.720569079, -73.985672691)",40.72056908,-73.98567269
+304,30Q501,Frank Sinatra School of the Arts High School,Queens,"(40.756528074, -73.925140644)",40.75652807,-73.92514064
+305,14K071,Juan Morel Campos Secondary School,Brooklyn,"(40.703577361001, -73.953237312)",40.70357736,-73.95323731
+306,07X473,Mott Haven Village Preparatory High School,Bronx,"(40.818173536, -73.911092663)",40.81817354,-73.91109266
+307,21K690,Brooklyn Studio Secondary School,Brooklyn,"(40.604877000001, -73.994417154)",40.604877,-73.99441715
+308,30Q445,William Cullen Bryant High School,Queens,"(40.758124675, -73.910333309)",40.75812468,-73.91033331
+309,11X418,Bronx High School for the Visual Arts,Bronx,"(40.851433485, -73.865017959)",40.85143349,-73.86501796
+310,07X259,"H.E.R.O. High (Health, Education, and Research Occupations High School)",Bronx,"(40.810405415, -73.906800116)",40.81040542,-73.90680012
+311,08X320,Pelham Lab High School,Bronx,"(40.840513977, -73.83812096)",40.84051398,-73.83812096
+312,28Q328,High School for Community Leadership,Queens,"(40.713577459, -73.796517825)",40.71357746,-73.79651783
+313,12X242,Mott Hall V,Bronx,"(40.831364532, -73.878344675)",40.83136453,-73.87834468
+314,21K337,International High School at Lafayette,Brooklyn,"(40.593593811, -73.984729232)",40.59359381,-73.98472923
+315,10X342,International School for Liberal Arts,Bronx,"(40.870377467, -73.898162952)",40.87037747,-73.89816295
+316,10X243,West Bronx Academy for the Future,Bronx,"(40.860012221, -73.888229604)",40.86001222,-73.8882296
+317,18K563,It Takes a Village Academy,Brooklyn,"(40.648663663, -73.921898762)",40.64866366,-73.92189876
+318,27Q309,Academy of Medical Technology: A College Board School,Queens,"(40.601989336, -73.762834323)",40.60198934,-73.76283432
+319,06M462,The College Academy,Manhattan,"(40.855938307, -73.927029634)",40.85593831,-73.92702963
+320,28Q620,Thomas A. Edison Career and Technical Education High School,Queens,"(40.715876261, -73.798822389)",40.71587626,-73.79882239
+321,17K539,High School for Service & Learning at Erasmus,Brooklyn,"(40.649439675, -73.958431198)",40.64943968,-73.9584312
+322,18K567,Brooklyn Theatre Arts High School,Brooklyn,"(40.63262743, -73.917797989)",40.63262743,-73.91779799
+323,08X349,Bronx River High School,Bronx,"(40.840513977, -73.83812096)",40.84051398,-73.83812096
+324,02M408,Professional Performing Arts High School,Manhattan,"(40.761432699, -73.988023698)",40.7614327,-73.9880237
+325,24Q455,Newtown High School,Queens,"(40.7412052, -73.874729884)",40.7412052,-73.87472988
+326,15K423,Brooklyn Frontiers High School,Brooklyn,"(40.690204575, -73.989270375)",40.69020458,-73.98927038
+327,13K670,Benjamin Banneker Academy,Brooklyn,"(40.695662413, -73.969286077)",40.69566241,-73.96928608
+328,07X221,South Bronx Preparatory: A College Board School,Bronx,"(40.814010816, -73.920836517)",40.81401082,-73.92083652
+329,08X312,Millennium Art Academy,Bronx,"(40.822303765, -73.85596139)",40.82230377,-73.85596139
+330,10X264,Bronx Academy for Software Engineering (BASE),Bronx,"(40.85592271, -73.88257898)",40.85592271,-73.88257898
+331,02M438,International High School at Union Square,Manhattan,"(40.735519463, -73.987604249)",40.73551946,-73.98760425
+332,19K683,"The School for Classics: An Academy of Thinkers, Writers and Peformers",Brooklyn,"(40.67068325, -73.87421748)",40.67068325,-73.87421748
+333,10X565,High School for Energy and Technology,Bronx,"(40.85592271, -73.88257898)",40.85592271,-73.88257898
+334,15K667,Sunset Park High School,Brooklyn,"(40.655952844, -74.005497325)",40.65595284,-74.00549733
+335,21K572,Expeditionary Learning School for Community Leaders,Brooklyn,"(40.593593811, -73.984729232)",40.59359381,-73.98472923
+336,06M346,Community Health Academy of the Heights,Manhattan,"(40.833555219, -73.941804212)",40.83355522,-73.94180421
+337,02M413,School of the Future High School,Manhattan,"(40.738948886, -73.985405172)",40.73894889,-73.98540517
+338,13K439,Brooklyn International High School,Brooklyn,"(40.697174727, -73.984959689)",40.69717473,-73.98495969
+339,11X290,Bronx Academy of Health Careers,Bronx,"(40.875754211, -73.861387834)",40.87575421,-73.86138783
+340,09X564,Claremont International HS,Bronx,"(40.840373398, -73.910838008)",40.8403734,-73.91083801
+341,30Q286,"Young Women's Leadership School, Astoria",Queens,"(40.771250896, -73.924601671)",40.7712509,-73.92460167
+342,09X327,Comprehensive Model School Project M.S. 327,Bronx,"(40.842414068, -73.916161586)",40.84241407,-73.91616159
+343,02M260,M.S. 260 Clinton School Writers & Artists,Manhattan,"(40.753210878, -73.997858515)",40.75321088,-73.99785852
+344,22K405,Midwood High School,Brooklyn,"(40.633335494, -73.952916064)",40.63333549,-73.95291606
+345,17K543,"Science, Technology and Research Early College High School at Erasmus",Brooklyn,"(40.649439675, -73.958431198)",40.64943968,-73.9584312
+346,07X600,Alfred E. Smith Career and Technical Education High School,Bronx,"(40.818246889, -73.919735678)",40.81824689,-73.91973568
+347,05M692,"High School for Mathematics, Science and Engineering at City College",Manhattan,"(40.821123112, -73.948845244)",40.82112311,-73.94884524
+348,02M580,Richard R. Green High School of Teaching,Manhattan,"(40.705234939, -74.01331504)",40.70523494,-74.01331504
+349,12X479,Bronx Career and College Preparatory High School,Bronx,"(40.827763979, -73.900386813)",40.82776398,-73.90038681
+350,10X546,Bronx Theatre High School,Bronx,"(40.877049443, -73.912336599)",40.87704944,-73.9123366
+351,14K474,PROGRESS High School for Professional Careers,Brooklyn,"(40.711963113, -73.940434367)",40.71196311,-73.94043437
+352,16K455,Boys and Girls High School,Brooklyn,"(40.679433045, -73.93243177)",40.67943305,-73.93243177
+353,10X433,High School for Teaching and the Professions,Bronx,"(40.870377467, -73.898162952)",40.87037747,-73.89816295
+354,21K525,Edward R. Murrow High School,Brooklyn,"(40.620504358, -73.959233933)",40.62050436,-73.95923393
+355,03M402,The Urban Assembly School for Green Careers,Manhattan,"(40.785743157, -73.974415228)",40.78574316,-73.97441523
+356,01M539,"New Explorations into Science, Technology and Math High School",Manhattan,"(40.718725451, -73.979426386)",40.71872545,-73.97942639
+357,08X332,Holcombe L. Rucker School of Community Research,Bronx,"(40.817439446, -73.898049206)",40.81743945,-73.89804921
+358,20K445,New Utrecht High School,Brooklyn,"(40.613424494, -74.003653766)",40.61342449,-74.00365377
+359,30Q580,Baccalaureate School for Global Education,Queens,"(40.755174833, -73.926823614)",40.75517483,-73.92682361
+360,25Q425,John Bowne High School,Queens,"(40.738697203, -73.824794821)",40.7386972,-73.82479482
+361,10X439,Bronx High School for Law and Community Service,Bronx,"(40.860012221, -73.888229604)",40.86001222,-73.8882296
+362,02M422,Quest to Learn,Manhattan,"(40.742888101, -74.002127381)",40.7428881,-74.00212738
+363,24Q264,Academy of Finance and Enterprise,Queens,"(40.745093519, -73.936813898)",40.74509352,-73.9368139
+364,18K569,Kurt Hahn Expeditionary Learning School,Brooklyn,"(40.648663663, -73.921898762)",40.64866366,-73.92189876
+365,25Q252,"Queens School of Inquiry, The",Queens,"(40.724522984, -73.80942799)",40.72452298,-73.80942799
+366,09X263,Validus Preparatory Academy: An Expeditionary Learning School,Bronx,"(40.839327126, -73.90130979)",40.83932713,-73.90130979
+367,24Q293,Civic Leadership Academy,Queens,"(40.743302873, -73.870574977)",40.74330287,-73.87057498
+368,02M655,Life Sciences Secondary School,Manhattan,"(40.78364426, -73.945741777)",40.78364426,-73.94574178
+369,02M520,Murry Bergtraum High School for Business Careers,Manhattan,"(40.710679471, -74.000807021)",40.71067947,-74.00080702
+370,22K555,Brooklyn College Academy,Brooklyn,"(40.649200627, -73.971694621)",40.64920063,-73.97169462
+371,23K514,Frederick Douglass Academy VII High School,Brooklyn,"(40.665810912, -73.911699645)",40.66581091,-73.91169965
+372,02M546,Academy for Software Engineering,Manhattan,"(40.735519463, -73.987604249)",40.73551946,-73.98760425
+373,17K548,Brooklyn School for Music & Theatre,Brooklyn,"(40.670298907, -73.961647876)",40.67029891,-73.96164788
+374,28Q167,Metropolitan Expeditionary Learning School,Queens,"(40.710435548, -73.850630155)",40.71043555,-73.85063016
+375,14K322,Foundations Academy,Brooklyn,"(40.697061083, -73.946675205)",40.69706108,-73.94667521
+376,12X684,Wings Academy,Bronx,"(40.841805221, -73.875417713)",40.84180522,-73.87541771
+377,30Q555,Newcomers High School,Queens,"(40.751380834, -73.937449719)",40.75138083,-73.93744972
+378,08X293,Renaissance High School for Musical Theater & Technology,Bronx,"(40.840513977, -73.83812096)",40.84051398,-73.83812096
+379,04M495,Park East High School,Manhattan,"(40.790562600001, -73.944454408)",40.7905626,-73.94445441
+380,12X388,Pan American International High School at Monroe,Bronx,"(40.83136649, -73.878823277)",40.83136649,-73.87882328
+381,15K448,Brooklyn Secondary School for Collaborative Studies,Brooklyn,"(40.679863998, -74.001482258)",40.679864,-74.00148226
+382,03M299,"High School for Arts, Imagination and Inquiry",Manhattan,"(40.774296411, -73.984822701)",40.77429641,-73.9848227
+383,24Q560,"Robert F. Wagner, Jr. Secondary School for Arts and Technology",Queens,"(40.742263515, -73.936876121)",40.74226352,-73.93687612
+384,16K688,The Brooklyn Academy of Global Finance,Brooklyn,"(40.691537765, -73.933725782)",40.69153777,-73.93372578
+385,02M303,"Facing History School, The",Manhattan,"(40.765026708, -73.992516578)",40.76502671,-73.99251658
+386,02M533,Union Square Academy for Health Sciences,Manhattan,"(40.735519463, -73.987604249)",40.73551946,-73.98760425
+387,02M294,Essex Street Academy,Manhattan,"(40.716867224, -73.989531943)",40.71686722,-73.98953194
+388,27Q480,John Adams High School,Queens,"(40.679831401, -73.838322664)",40.6798314,-73.83832266
+389,24Q610,Aviation Career & Technical Education High School,Queens,"(40.743593644001, -73.929077865)",40.74359364,-73.92907787
+390,18K566,Brooklyn Generation School,Brooklyn,"(40.63262743, -73.917797989)",40.63262743,-73.91779799
+391,15K684,Millennium Brooklyn HS,Brooklyn,"(40.669598175, -73.979255522)",40.66959818,-73.97925552
+392,06M423,High School for Excellence and Innovation,Manhattan,"(40.866045549, -73.924856642)",40.86604555,-73.92485664
+393,10X445,Bronx High School of Science,Bronx,"(40.877056368, -73.889780351)",40.87705637,-73.88978035
+394,08X269,Bronx Studio School for Writers and Artists,Bronx,"(40.820623637, -73.893073519)",40.82062364,-73.89307352
+395,06M293,City College Academy of the Arts,Manhattan,"(40.861113319, -73.930452149)",40.86111332,-73.93045215
+396,29Q265,Excelsior Preparatory High School,Queens,"(40.668232288, -73.756839894)",40.66823229,-73.75683989
+397,03M415,Wadleigh Secondary School for the Performing & Visual Arts,Manhattan,"(40.802174581, -73.954008828)",40.80217458,-73.95400883
+398,25Q460,Flushing High School,Queens,"(40.765243471, -73.827855282)",40.76524347,-73.82785528
+399,08X405,Herbert H. Lehman High School.,Bronx,"(40.840513977, -73.83812096)",40.84051398,-73.83812096
+400,20K609,Urban Assembly School for Criminal Justice,Brooklyn,"(40.634908095, -73.981519077)",40.6349081,-73.98151908
+401,18K629,Cultural Academy for the Arts and Sciences,Brooklyn,"(40.648663663, -73.921898762)",40.64866366,-73.92189876
+402,12X682,Fannie Lou Hamer Freedom High School,Bronx,"(40.830807154, -73.886021316)",40.83080715,-73.88602132
+403,25Q263,Flushing International High School,Queens,"(40.76041417, -73.818376278)",40.76041417,-73.81837628
+404,17K537,High School for Youth and Community Development at Erasmus,Brooklyn,"(40.649439675, -73.958431198)",40.64943968,-73.9584312
+405,01M696,Bard High School Early College,Manhattan,"(40.718961617, -73.976066021)",40.71896162,-73.97606602
+406,19K659,Cypress Hills Collegiate Preparatory School,Brooklyn,"(40.691143962, -73.868426057)",40.69114396,-73.86842606
+407,20K485,High School of Telecommunication Arts and Technology,Brooklyn,"(40.637245716, -74.023816473)",40.63724572,-74.02381647
+408,11X265,Bronx Lab School,Bronx,"(40.875754211, -73.861387834)",40.87575421,-73.86138783
+409,10X368,In-Tech Academy (M.S. / High School 368),Bronx,"(40.880050093, -73.909209048)",40.88005009,-73.90920905
+410,04M372,ESPERANZA PREPARATORY ACADEMY,Manhattan,"(40.793072777, -73.942356558)",40.79307278,-73.94235656
+411,10X440,DeWitt Clinton High School,Bronx,"(40.88008184, -73.885901533)",40.88008184,-73.88590153
+412,07X522,Bronx Design and Construction Academy,Bronx,"(40.818246889, -73.919735678)",40.81824689,-73.91973568
+413,13K350,Urban Assembly High School of Music and Art,Brooklyn,"(40.697174727, -73.984959689)",40.69717473,-73.98495969
+414,06M348,Washington Heights Expeditionary Learning School,Manhattan,"(40.848878788, -73.930806517)",40.84887879,-73.93080652
+415,19K615,Transit Tech Career and Technical Education High School,Brooklyn,"(40.678230731001, -73.875973012)",40.67823073,-73.87597301
+416,13K483,The Urban Assembly School for Law and Justice,Brooklyn,"(40.694620119, -73.988623945)",40.69462012,-73.98862395
+417,22K425,James Madison High School,Brooklyn,"(40.609758481, -73.948451837)",40.60975848,-73.94845184
+418,07X223,M.S. 223 The Laboratory School of Finance and Technology,Bronx,"(40.814010816, -73.920836517)",40.81401082,-73.92083652
+419,27Q475,Richmond Hill High School,Queens,"(40.695649222001, -73.833584805)",40.69564922,-73.83358481
+420,31R455,Tottenville High School,Staten Island,"(40.528228767, -74.192153698)",40.52822877,-74.1921537
+421,14K586,Lyons Community School,Brooklyn,"(40.70989996, -73.943659935)",40.70989996,-73.94365994
+422,10X268,Kingsbridge International High School,Bronx,"(40.870377467, -73.898162952)",40.87037747,-73.89816295
+423,17K524,International High School at Prospect Heights,Brooklyn,"(40.670298907, -73.961647876)",40.67029891,-73.96164788
+424,17K408,Academy of Hospitality and Tourism,Brooklyn,"(40.649439675, -73.958431198)",40.64943968,-73.9584312
+425,07X334,International Community High School,Bronx,"(40.810036192, -73.917812482)",40.81003619,-73.91781248
+426,08X432,BRONX BRIDGES HIGH SCHOOL,Bronx,"(40.822303765, -73.85596139)",40.82230377,-73.85596139
+427,09X297,Morris Academy for Collaborative Studies,Bronx,"(40.827602669001, -73.904475257)",40.82760267,-73.90447526
+428,15K592,Khalil Gibran International Academy,Brooklyn,"(40.686741862, -73.980229065)",40.68674186,-73.98022907
+429,12X511,Bronx Envision Academy,Bronx,"(40.835937328, -73.890467693)",40.83593733,-73.89046769
+430,08X282,Women's Academy of Excellence,Bronx,"(40.81491834, -73.856565535)",40.81491834,-73.85656554
+431,02M300,"Urban Assembly School of Design and Construction, The",Manhattan,"(40.765026708, -73.992516578)",40.76502671,-73.99251658
+432,09X412,Bronx High School of Business,Bronx,"(40.840373398, -73.910838008)",40.8403734,-73.91083801
+433,32K549,Bushwick School for Social Justice,Brooklyn,"(40.696961848, -73.910815939)",40.69696185,-73.91081594
+434,02M407,Institute for Collaborative Education,Manhattan,"(40.732485378, -73.983053388)",40.73248538,-73.98305339
+435,21K344,Rachel Carson High School for Coastal Studies,Brooklyn,"(40.58211615, -73.972894492)",40.58211615,-73.97289449

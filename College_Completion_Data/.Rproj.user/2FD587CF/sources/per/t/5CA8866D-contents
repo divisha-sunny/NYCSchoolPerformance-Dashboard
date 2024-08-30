@@ -1,0 +1,297 @@
+---
+title: "California_Housing_Analysis"
+author: "Divisha Choudavaram"
+date: "2023-01-12"
+output: html_document
+---
+
+Loading the Dataset:
+
+```{r}
+setwd("C:/Users/chowd/Documents/NEU/2nd quarter/Intermediate Analysis")
+library(readr)
+housing<- read_csv("California_Houses.csv", show_col_types = FALSE)
+```
+
+```{r}
+head(housing)
+```
+
+```{r}
+dim(housing)
+colnames(housing)
+```
+
+```{r}
+str(housing)
+```
+
+Descriptive statistics of the data
+
+```{r}
+summary(housing)
+```
+
+```{r}
+library(psych)
+describe(housing)
+```
+Checking for Null Values:
+
+```{r}
+is.null(housing)
+```
+
+```{r}
+library(Amelia)
+missmap(housing, main = "Missing values")
+```
+
+Box plots for all the columns
+
+```{r}
+# Set up the plot window
+par(mfrow=c(3,5)) # 3 rows and 3 columns
+# Create a for loop to plot box plots for each column
+for (i in 1:ncol(housing)) {
+  boxplot(housing[,i], main = colnames(housing)[i])
+}
+```
+
+```{r}
+install.packages("rgl")
+```
+
+Relationship between Latitude, Longitude, Median House Value and Distance to Coast
+
+```{r}
+library(ggplot2)
+ggplot(housing, aes(x = Latitude, y = Longitude, color = Median_House_Value, size = Distance_to_coast)) +
+  geom_point() +
+  ggtitle("Median House Value by Geographical Location and Distance from Coast") +
+  xlab("Latitude") +
+  ylab("Longitude") +
+  scale_color_gradient(name = "Median House Value", low = "blue", high = "red")
+```
+
+Scatter plot of Median Income vs Median House Value in R
+
+```{r}
+ggplot(housing, aes(x = Median_Income, y = Median_House_Value, color = Median_Age)) + 
+  geom_point() + 
+  ggtitle("Median Income, Median House Value and Median Age") + 
+  xlab("Median Income in 10K$") + 
+  ylab("Median House Value") +
+  scale_color_gradient(name = "Median Age", low = "Pink", high = "Blue") +
+  scale_y_continuous(labels = scales::comma)
+```
+
+```{r}
+library(ggplot2)
+
+housing$Age_Group <- cut(housing$Median_Age, c(0, 25, 40, 55), labels = c("young", "middle-aged", "old"))
+ggplot(housing, aes(x = Age_Group, y = Tot_Rooms, fill = Tot_Bedrooms)) +
+  geom_bar(stat = "identity") +
+  ggtitle("Number of Rooms in Different Age Groups by Total Bedrooms") +
+  xlab("Age Group") +
+  ylab("Total Rooms")+
+  scale_y_continuous(labels = scales::comma)
+```
+
+```{r}
+library(ggplot2)
+
+ggplot(housing, aes(x = Population, y = Households, color = Tot_Rooms, size = Tot_Bedrooms)) +
+  geom_point() +
+  ggtitle("Relationship between Population, Households, Total Rooms and Bedrooms") +
+  xlab("Population") +
+  ylab("Households") +
+  scale_color_gradient(name = "Total Rooms", low = "blue", high = "red") +
+  scale_size_area(name = "Total Bedrooms")
+
+```
+
+```{r}
+ggplot(housing, aes(x = Median_House_Value, y = Population, color = Households, size = Median_Income)) +
+  geom_point() +
+  ggtitle("Median House Value by Population and Household") +
+  xlab("Population") +
+  ylab("Median House Value") +
+  scale_color_gradient(name = "Households", low = "blue", high = "red")
+```
+
+Correlation matrix:
+
+```{r}
+cor(housing[,c(1:14)])
+```
+
+Correlation plot
+
+```{r}
+library(corrplot)
+corrplot(cor(housing[,c(1:14)]), type = "upper", tl.col = "black", tl.srt = 45)
+```
+
+
+Scatter plot of the variable highest correlated with Median_House_Value
+
+```{r}
+library(car)
+scatterplot(Median_House_Value~Median_Income, data = housing)
+```
+
+Scatter plot of the variable lowest correlated with Median_House_Value
+
+```{r}
+library(car)
+scatterplot(Median_House_Value~Population, data = housing)
+```
+
+Scatter plot of the variable with correlation closest to 0.5
+
+```{r}
+library(car)
+scatterplot(Median_House_Value~Distance_to_coast, data = housing)
+```
+
+Regression model with 3 variables
+ 
+```{r}
+model1 <- lm(Median_House_Value ~ Median_Income + Tot_Rooms + Tot_Bedrooms, data = housing)
+summary(model1)
+```
+
+Regression model plot
+
+```{r}
+plot(model1)
+```
+
+collenearity of the model
+
+```{r}
+vif(model1)
+```
+
+outlier test
+
+```{r}
+outlierTest(model1)
+```
+
+```{r}
+install.packages("MASS")
+```
+
+Robust regression model
+
+```{r}
+library(MASS)
+model2 <- rlm(Median_House_Value ~ Median_Income + Tot_Rooms + Tot_Bedrooms, data = housing)
+summary(model2)
+
+```
+
+logarithmic transformation
+
+```{r}
+housing$Median_Income_log <- log(housing$Median_Income)
+housing$Tot_Rooms_log <- log(housing$Tot_Rooms)
+housing$Tot_Bedrooms_log <- log(housing$Tot_Bedrooms)
+model_log <- lm(Median_House_Value ~ Median_Income_log + Tot_Rooms_log + Tot_Bedrooms_log, data = housing)
+summary(model_log)
+```
+
+Plot for logarithmic transformation
+
+```{r}
+plot(model_log)
+```
+
+Multicollinearity for logarithmic transformation
+
+```{r}
+vif(model_log)
+```
+
+sqrt transformatin
+
+```{r}
+housing$Median_Income_sqrt <- sqrt(housing$Median_Income)
+housing$Tot_Rooms_sqrt <- sqrt(housing$Tot_Rooms)
+housing$Tot_Bedrooms_sqrt <- sqrt(housing$Tot_Bedrooms)
+model_sqrt <- lm(Median_House_Value ~ Median_Income_sqrt + Tot_Rooms_sqrt + Tot_Bedrooms_sqrt, data = housing)
+summary(model_sqrt)
+```
+
+plot for sqrt trasnformation
+
+```{r}
+plot(model_sqrt)
+```
+
+multicollinearity for sqrt transformation
+
+```{r}
+vif(model_sqrt)
+```
+
+
+```{r}
+install.packages("pls")
+```
+
+Removing Tot_Rooms
+
+```{r}
+fit1 <- update(model1, ~.-Tot_Rooms)
+summary(fit1)
+```
+
+Plot for the model to fix multicollinearity
+
+```{r}
+plot(fit1)
+```
+
+Multicollinearity test after removing tot_Rooms
+
+```{r}
+vif(fit1)
+```
+
+All subsets method
+
+```{r}
+#install.packages("leaps")
+library(leaps)
+
+# fit the all subsets regression
+fit2 <- regsubsets(Median_House_Value ~ Median_Income + Tot_Rooms + Tot_Bedrooms, data = housing, nbest = 1)
+
+# Print the summary of the all subsets regression
+summary(fit2)
+
+```
+
+All subsets regression plot
+
+```{r}
+plot(fit2, scale = 'adjr2')
+```
+
+one variable all subsets model
+
+```{r}
+fit3 <- lm(Median_House_Value ~ Median_Income, data = housing)
+summary(fit3)
+```
+
+one variable all subsets plot
+
+```{r}
+plot(fit3)
+```
+
+

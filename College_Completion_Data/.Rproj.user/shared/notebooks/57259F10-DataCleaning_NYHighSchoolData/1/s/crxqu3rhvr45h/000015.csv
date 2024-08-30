@@ -1,0 +1,7 @@
+"0","ap_2010 <- ap_2010 %>% "
+"0","    mutate_at(vars(`AP Test Takers`, `Total Exams Taken`, "
+"0","                    `Number of Exams with scores 3 4 or 5`), as.numeric) %>%"
+"0","    mutate(exams_per_student = `Total Exams Taken`/`AP Test Takers`) %>%"
+"0","    mutate(high_score_percent = (`Number of Exams with scores 3 4 or 5`/`Total Exams Taken`)*100)"
+"0",""
+"0","head(ap_2010)"

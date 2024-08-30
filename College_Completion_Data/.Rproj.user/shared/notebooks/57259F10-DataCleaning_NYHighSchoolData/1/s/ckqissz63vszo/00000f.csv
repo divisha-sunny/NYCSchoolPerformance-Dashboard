@@ -1,0 +1,6 @@
+"0","class_size <- class_size %>% "
+"0","    group_by(CSD, `SCHOOL CODE`, `SCHOOL NAME`) %>%"
+"0","    summarize(avg_class_size = mean(`AVERAGE CLASS SIZE`),"
+"0","              avg_largest_class = mean(`SIZE OF LARGEST CLASS`),"
+"0","              avg_smallest_class = mean(`SIZE OF SMALLEST CLASS`))"
+"2","`summarise()` has grouped output by 'CSD', 'SCHOOL CODE'. You can override using the `.groups` argument."

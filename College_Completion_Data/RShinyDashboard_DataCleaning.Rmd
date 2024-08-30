@@ -1,0 +1,208 @@
+---
+title: "RShinyDasboardDataCleaning"
+author: "Divisha Choudavaram"
+date: "2023-02-04"
+output: html_document
+---
+
+Importing the Datasets
+
+```{r}
+setwd("C:/Users/chowd/Documents/NEU/2nd quarter/Communications and Visualizations/College_Project/College_Completion_Data")
+library(readr)
+ap_data <- read_csv("ap_data.csv") 
+class_size <- read_csv("class_size.csv") 
+demographics <- read_csv("demographics.csv")
+graduation <- read_csv("graduation.csv") 
+sat_results <- read_csv("sat_results.csv")
+hs_directory <- read_csv("high_school_directory.csv")
+```
+
+```{r}
+library(dplyr)
+sat_dem_ap <- ap_2010 %>%
+  left_join(demographics, by = "DBN") %>%
+  left_join(sat_results, by = "DBN") %>%
+  select(-`SCHOOL NAME`)
+
+head(sat_dem_ap, n=5)
+```
+
+```{r}
+dim(sat_dem_ap)
+```
+
+
+```{r}
+colSums(is.na(sat_dem_ap)) %>%
+            as_tibble(rownames = "Variable")
+```
+
+```{r}
+sat_dem_ap <- sat_dem_ap %>%
+  filter(!is.na(`AP Test Takers`)) %>%
+  filter(!is.na(`Total Exams Taken`))%>%
+  filter(!is.na(`Number of Exams with scores 3 4 or 5`))%>%
+  filter(!is.na(frl_percent))%>%
+  filter(!is.na(ell_percent))%>%
+  filter(!is.na(total_enrollment))%>%
+  filter(!is.na(schoolyear))
+```
+
+```{r}
+head(sat_dem_ap, n=5)
+dim(sat_dem_ap)
+```
+
+
+
+
+```{r}
+sat_dem_ap <- select(sat_dem_ap, -`...1.x`, -`...1.y`)
+```
+
+```{r}
+head(sat_dem_ap, n=5)
+dim(sat_dem_ap)
+```
+
+```{r}
+head(sat_dem_ap, n=5)
+```
+
+```{r}
+write.csv(sat_dem_ap, "sat_dem_ap.csv")
+```
+
+```{r}
+library(dplyr)
+sat_class_ap <- ap_2010 %>%
+  left_join(class_size, by = "DBN") %>%
+  left_join(sat_results, by = "DBN")
+
+head(sat_class_ap, n=5)
+```
+
+```{r}
+colSums(is.na(sat_class_ap)) %>%
+            as_tibble(rownames = "Variable")
+```
+
+```{r}
+sat_class_ap <- sat_class_ap %>%
+  filter(!is.na(`AP Test Takers`)) %>%
+  filter(!is.na(`Total Exams Taken`))%>%
+  filter(!is.na(`Number of Exams with scores 3 4 or 5`))%>%
+  filter(!is.na(avg_class_size))%>%
+  filter(!is.na(avg_largest_class))%>%
+  filter(!is.na(avg_smallest_class))
+```
+
+```{r}
+head(sat_class_ap, n=5)
+```
+
+```{r}
+sat_class_ap <- select(sat_class_ap, -`...1.x`, -`...1.y`, -`SCHOOL NAME.x`, -`SCHOOL NAME.y`)
+```
+
+```{r}
+head(sat_class_ap, n=5)
+```
+
+```{r}
+write.csv(sat_class_ap, "sat_class_ap.csv")
+```
+
+```{r}
+library(dplyr)
+sat_class_dem_ap <- sat_dem_ap %>%
+  left_join(class_size, by = "DBN")
+
+head(sat_class_dem_ap, n=5)
+```
+
+```{r}
+sat_class_dem_ap <- select(sat_class_dem_ap, -`SCHOOL NAME`, -`...1`)
+```
+
+```{r}
+head(sat_class_dem_ap, n=5)
+```
+
+```{r}
+colSums(is.na(sat_class_dem_ap)) %>%
+            as_tibble(rownames = "Variable")
+```
+
+```{r}
+write.csv(sat_class_dem_ap, "sat_class_dem_ap.csv")
+```
+
+```{r}
+head(sat_dem_ap, n=5)
+```
+
+
+```{r}
+head(sat_class_dem_ap, n=5)
+```
+
+
+```{r}
+library(dplyr)
+all_combined <- sat_class_dem_ap %>%
+  left_join(hs_directory, by = "DBN")%>%
+  left_join(graduation, by = "DBN")
+
+head(all_combined, n=5)
+
+```
+
+```{r}
+all_combined <- select(all_combined, -`...1.x`, -`...1.y`, -`School Name`, -`School Name`)
+```
+
+```{r}
+all_combined <- select(all_combined, -`school_name`)
+```
+
+```{r}
+all_combined <- all_combined %>% 
+    mutate_at(vars(`AP Test Takers`, `Total Exams Taken`, 
+                    `Number of Exams with scores 3 4 or 5`), as.numeric) %>%
+    mutate(exams_per_student = `Total Exams Taken`/`AP Test Takers`) %>%
+    mutate(high_score_percent = (`Number of Exams with scores 3 4 or 5`/`Total Exams Taken`)*100)
+```
+
+
+```{r}
+head(all_combined, n=5)
+```
+
+```{r}
+colSums(is.na(all_combined)) %>%
+            as_tibble(rownames = "Variable")
+```
+
+```{r}
+all_combined <- all_combined %>%
+  filter(!is.na(`Borough`)) %>%
+  filter(!is.na(`lat_long`))
+```
+
+```{r}
+all_combined <- all_combined %>%
+  filter(!is.na(`Total Grads - % of cohort`)) %>%
+  filter(!is.na(`Dropped Out - % of cohort`))
+```
+
+```{r}
+head(all_combined, n=5)
+```
+
+
+```{r}
+write_csv(all_combined, "all_combined.csv")
+```
+
